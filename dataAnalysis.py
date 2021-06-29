@@ -1,113 +1,107 @@
-from os import close
-from numpy.lib.function_base import append
-
 # General Functions
-from GET_RSI_DATA import get_RSI_data
+import numpy as np
 from GET_CLOSE_DATA import get_close_data
+from PRINT_ANALYSIS import print_analysis
+from GET_DATA import get_data
 from GET_ATR import get_ATR
-from GET_MA import get_MA
 from GET_TREND import get_trend
-from PRINT_CHARTS import print_charts ###
+from CHECK_ENTRY import check_entry
 
-def check_candleStick_pattern(all_opens, all_highs, all_lows, all_closes):
-    candle = [-1,0,0]
-    open_now = all_opens[-1]
-    open_prev = all_opens[-2]
-    high_now = all_highs[-1]
-    high_prev = all_highs[-2]
-    low_now = all_lows[-1]
-    low_prev = all_lows[-2]
-    close_now = all_closes[-1]
-    close_prev = all_closes[-2] 
-    # bull = 1
-    # bear = 0
+### DATA ANALYSIS
+from PRINT_CHARTS import print_charts #################################################################
+#from datatime import datetime
+#datetime.fromtimestamp()
+###
 
-    #Engulfing & above-below candle
-    if open_prev < close_now: #Bull
-        candle[0] = 1
-        if close_now > high_prev: #above Bull
-            candle[1] = 2
-        else:
-            candle[1] = 1
-
-    elif close_now < open_prev: #Bear
-        candle[0] = 0
-        if close_now < low_prev: #below bear
-            candle[1] = 2
-        else:
-            candle[1] = 1
+def trail_stop_sell(PORTFOLIO):
     
-    #38.2 candle
-    if close_now > open_now: # Bull 38.2
-        candle[0] = 1
-        if open_now > float((high_now-low_now)*61.8+low_now):
-            candle[1] = 3
+    sell_point = True
+
     
-    elif close_now < open_now: # Bear 38.2
-        candle[0] = 0
-        if open_now < float((high_now-low_now)*38.2+low_now):
-            candle[1] = 3
 
-    return candle
 
-def check_entry(all_opens, all_highs, all_lows, all_closes):
+    return sell_point
 
-    check = [2,0]
 
-    short_trend, long_trend = get_trend(all_closes)
 
-    candle = check_candleStick_pattern(all_opens, all_highs, all_lows, all_closes)
+def execute_buy(PORTFOLIO, all_closes, all_highs, all_lows):
 
-    # Buy = 1
-    # Sell = 0
-    # Nothing = 2
+    ATR = get_ATR(all_closes, all_highs, all_lows, 14)
 
-    check[1] = candle
+    PORTFOLIO['Position'] = True
+    PORTFOLIO['buy_price'] = all_closes[-1]
+    PORTFOLIO['sell_conditions']['stop_loss'] = all_lows[-1]-ATR
+    PORTFOLIO['sell_conditions']['sell_marker'] = all_closes[-1]+2*ATR
+    
+    #order = client.create_order(symbol=symbol, side=side, type=order_type, quantity=quantity)
+    return
 
-    if candle[1] != 0:
-        if short_trend == 1 and candle[0] == 1: 
-            check[0] = 1
-        elif short_trend == 0 and candle[0] == 0:
-            check[0] = 0
-
-    return check
 
 if __name__ == "__main__":
 
 ### pretend ticker ####
-    o,h,l,c = get_close_data() ###
-    #print(len(l))
+    #o,h,l,c,close_time = get_close_data() ##################################################################
+    all_candle_data = get_data()
+    date = all_candle_data['date']
+    o = np.array(all_candle_data['open'])
+    h = np.array(all_candle_data['high'])
+    l = np.array(all_candle_data['low'])
+    c = np.array(all_candle_data['close'])
+    #print(len(l))###############################################################
 ###----------------####
 
 # Trade details
-    DATA_PERIOD = 400
+    DATA_PERIOD = 350
     LONG_PERIOD = 200
     SHORT_PERIOD = 20
     RSI_PERIOD = 14
     RSI_OVERBOUGHT = 70
     RSI_OVERSOLD = 30
-    TRADE_SYMBOL = 'ETHUSD'
-    TRADE_QUANTITY = 0.05
+    PORTFOLIO = [{'Stock':'ETHUSD',
+                'Trade_Quantity':0.05,
+                'Position':False,
+                'buy_price': 0.0, 
+                'sell_conditions':{
+                    'stop_loss': 0.0,
+                    'sell_marker': 0.0,
+                    'trail_stop': False
+                }
+                },{}]
+    #TRADE_SYMBOL = 'ETHUSD'
+    #TRADE_QUANTITY = 0.05
+    SELL_BUY_INFO = open("SELL_BUY_INFO.txt","w") #Creating error file
+
 # Empty Arrays
     
     all_opens = []
     all_closes = []
     all_highs = []
     all_lows = []
-    SHORT_MA = []
-    LONG_MA = []
+    #SHORT_MA = []
+    #LONG_MA = []
 # Initializers
-    iteration = 0
+    #iteration = 0
 
-### Pretend Ticker ####
-    trend_s = []   ####
-    trend_l = []    ###
-    atr = []        ###
-    x = 0           ###
-    buy = []        ###
-    sell = []       ###
-    all_data = []   ###
-    while x < 2884: ### 2884
+### Pretend Ticker ###############################################################
+    trend_s = []   ###################################################################
+    trend_l = []    ##################################################################
+    #atr = []        ##################################################################
+    x = 0           ##################################################################
+    buy_1 = []        ##################################################################
+    buy_2 = []        ##################################################################
+    buy_3 = []        ##################################################################
+    bottom_value = 1700
+    buy_x = bottom_value
+    sell_x = bottom_value
+    sell_good = bottom_value
+    sell_stop = bottom_value
+    buy_marker = bottom_value
+    all_analysis_data = []
+    TOTAL_PROFIT = 0.0 ###############################################################
+    WIN_LOSS_RATIO = 0.0 ###############################################################
+    SALES = 0.0
+    data_length = len(o)
+    while x < data_length: ### 4000 ###############################################################
         all_data_subset = []
 ###----------------####
 
@@ -130,63 +124,128 @@ if __name__ == "__main__":
 
             #Finding trends
             entry = check_entry(all_opens, all_highs, all_lows, all_closes)
+            #entry[buy/sell,close,type]
 
+            # !! need to loop this for multiple stocks
+            if PORTFOLIO[0]['Position'] == False:
+                if entry[0] == 1:
+                    execute_buy(PORTFOLIO[0], all_closes, all_highs, all_lows)
+                    #side = 'BUY'
+                    #order_type = 'ORDER_TYPE_MARKET'
+                    #(symbol, sie, order_type=ORDER_TYPE_MARKET, quantity, all_closes, all_highs, all_lows
 
-
-### Pretend Ticker ####
-
-            if entry[0] == 1:
-                buy.append(all_closes[-1])
-            elif entry[0] == 0:
-                sell.append(all_closes[-1])
-            else:
-                buy.append(2400)
-                sell.append(2400)
-            
-
-            
-            ATR = get_ATR(all_closes, all_highs, all_lows, 14)
-            short_trend, long_trend = get_trend(all_closes)
-            trend_s.append(short_trend)###
-            trend_l.append(long_trend)###
-            atr.append(ATR)
-            #Append all data
-            all_data_subset.append(x) #x position
-            ohlc_data=[] 
-            ohlc_data.append(all_closes[-1]) #closes
-            ohlc_data.append(all_opens[-1])
-            ohlc_data.append(all_lows[-1])
-            ohlc_data.append(all_highs[-1])
-            all_data_subset.append(ohlc_data)
-            trend_data = []
-            trend_data.append(short_trend)
-            trend_data.append(long_trend)
-            all_data_subset.append(trend_data)
-            all_data_subset.append(ATR)
-            #buy/sell/stay
-            buy_sell_subset = [0,0]
-            if entry[0] == 1:
-                buy_sell_subset[1] = 1
-            elif entry[0] == 0:
-                buy_sell_subset[1] = -1
-            else:
-                buy_sell_subset[1] = 0
-            all_data_subset.append(buy_sell_subset)
+                    SELL_BUY_INFO.write('Position: '+str(x)+'\n') ###
+                    SELL_BUY_INFO.write('BUYING STOCK @ '+str(round(all_closes[-1],3))+'\n')
+                    SELL_BUY_INFO.write('Candle pattern: '+str(entry[2])+'\n')
+                    SELL_BUY_INFO.write('ATR: '+str(round(get_ATR(all_closes, all_highs, all_lows, 14),3))+'\n')
+                    SELL_BUY_INFO.write('Candle size: '+str(round(all_highs[-1]-all_lows[-1],3))+'\n')
+                    SELL_BUY_INFO.write('Stop loss: '+str(round(PORTFOLIO[0]['sell_conditions']['stop_loss'],3))+' - Sell_marker: '+str(round(PORTFOLIO[0]['sell_conditions']['sell_marker'],3))+'\n')
+                    risk = round((PORTFOLIO[0]['sell_conditions']['sell_marker'] - all_closes[-1])/(all_closes[-1]-PORTFOLIO[0]['sell_conditions']['stop_loss']),3)
+                    SELL_BUY_INFO.write('Risk/Reward Ratio: '+str(risk)+'\n')
                     
-            all_data.append(all_data_subset)
+                    buy_x = all_closes[-1]###
+                    sell_x = bottom_value ###
+                    sell_good = bottom_value
+                    buy_marker = PORTFOLIO[0]['sell_conditions']['sell_marker'] ###
+                    sell_stop = PORTFOLIO[0]['sell_conditions']['stop_loss'] ###
+
+                else: ####
+                    sell_x = bottom_value ###
+                    sell_good = bottom_value
+
+            elif PORTFOLIO[0]['Position'] == True:
+
+                #Sell conditions
+
+                if all_closes[-1] < PORTFOLIO[0]['sell_conditions']['stop_loss']:
+                    PORTFOLIO[0]['Position'] = False
+
+                    change = PORTFOLIO[0]['sell_conditions']['stop_loss'] - PORTFOLIO[0]['buy_price']
+                    #print('stop_loss: '+str(PORTFOLIO[0]['stop_loss']))
+                    #print('stop_sell: '+str(PORTFOLIO[0]['sell_marker']))
+                    #print('buy_price: '+str(PORTFOLIO[0]['buy_price']))
+                    SELL_BUY_INFO.write('SELLING STOCK @ '+str(round(all_closes[-1],3))+' - profit/loss: '+str(round(change,3))+'\n\n')
+                    #print('SELLING STOCK @ '+str(round(all_closes[-1],3))+' - profit/loss: '+str(round(change,3)))
+
+                    SALES+=1
+                    TOTAL_PROFIT+=change
+
+                    sell_x = all_closes[-1] #############################################################
+                    sell_good = bottom_value
+                    buy_marker = bottom_value ###################################################################
+                    sell_stop = bottom_value ####################################################################
+
+                elif all_closes[-1] > PORTFOLIO[0]['sell_conditions']['sell_marker']:
+                    #trail_stop_sell()
+                    PORTFOLIO[0]['Position'] = False
+
+                    change = PORTFOLIO[0]['sell_conditions']['sell_marker'] - PORTFOLIO[0]['buy_price']
+                    #print('stop_loss: '+str(PORTFOLIO[0]['stop_loss']))
+                    #print('stop_sell: '+str(PORTFOLIO[0]['sell_marker']))
+                    #print('buy_price: '+str(PORTFOLIO[0]['buy_price']))
+                    SELL_BUY_INFO.write('SELLING STOCK @ '+str(round(all_closes[-1],3))+' - profit/loss: '+str(round(change,3))+'\n\n')
+                    #print('SELLING STOCK @ '+str(round(all_closes[-1],3))+' - profit/loss: '+str(round(change,3))+'\n\n')
+
+                    if change > 0: 
+                            WIN_LOSS_RATIO+=1
+                    SALES+=1
+                    TOTAL_PROFIT+=change
+
+                    sell_good = all_closes[-1] #############################################################
+                    sell_x = bottom_value
+                    buy_marker = bottom_value ###################################################################
+                    sell_stop = bottom_value ####################################################################
+
+                else:
+                    #print('HOLDING @ '+str(all_closes[-1]))
+
+                    buy_x = bottom_value###############################################################
+                    sell_x = bottom_value##############################################################
+                    
+
+### Pretend Ticker ###################################################################            
+            short_trend, long_trend = get_trend(all_closes)###############################################################
+            trend_s.append(short_trend)##################################################################
+            trend_l.append(long_trend)##################################################################
+            trend_data = []###############################################################
+            trend_data.append(short_trend)###############################################################
+            trend_data.append(long_trend)###############################################################
+            all_data_subset.append(trend_data)###############################################################
+            #buy/sell/stay 2240###############################################################
+
+            if entry[0] == 1:###############################################################
+                if entry[2] == 1:###############################################################
+                    buy_1 = all_closes[-1]###############################################################
+                    buy_2 = bottom_value###############################################################
+                    buy_3 = bottom_value###############################################################
+                elif entry[2] == 2:###############################################################
+                    buy_2 = all_closes[-1]###############################################################
+                    buy_1 = bottom_value###############################################################
+                    buy_3 = bottom_value###############################################################
+                elif entry[2] == 3:###############################################################
+                    buy_3 = all_closes[-1]###############################################################
+                    buy_1 = bottom_value###############################################################
+                    buy_2 = bottom_value###############################################################
+            else:###############################################################
+                buy_1 = bottom_value###############################################################
+                buy_2 = bottom_value###############################################################
+                buy_3 = bottom_value###############################################################
+
+            buy_subset = [buy_1,buy_2,buy_3]###############################################################
+            all_data_subset.append(buy_subset)###############################################################
+            buy_sell_points = [buy_x, sell_x, sell_good, buy_marker, sell_stop]
+            all_data_subset.append(buy_sell_points)        
+            all_analysis_data.append(all_data_subset)###############################################################
 
         
-        x +=1 ###
-###----------------####
+        x +=1 ##################################################################
+###----------------###################################################################
 
-#print(all_closes) ###
-#print(len(all_highs)) ###
-#print(len(all_lows)) ###
+# 0,                         1,                      2,                        
+#[[Short trend, long trend], [buy_1, buy_2, buy_3], [buy_close, sell_close, buy_marker, sell_stop]]
 
+print('Total profit: '+str(round(TOTAL_PROFIT, 2)))
+print('Success Rate: '+str(round(WIN_LOSS_RATIO/SALES*100, 2)))
 
-#[X-value [close,open,low,high], [Short trend, long trend], ATR, [buy(1)/sell(-1),stay(0)]]
-#[399, [2435.22, 2438.87, 2434.63, 2439.2], [1, 0], 4.293584979499676, [2435.22, 0]]
-
-#print(all_data[0])
-#print(all_data[-1])
-print_charts(all_data) ###
+#print(len(all_analysis_data))
+print_analysis(all_analysis_data, DATA_PERIOD)

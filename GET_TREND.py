@@ -2,11 +2,13 @@ from GET_MA import get_MA
 
 def get_trend(all_closes):
 
+    # Uses both 20 and 50 MAV to caculate Up or Down trend
+
     SHORT_MA, LONG_MA = get_MA(all_closes)
 
     period = [0,1]
     #data_length = [short_period, long_period]
-    data_length = [5,50]
+    data_length = [5,5]
     trend_data = [SHORT_MA, LONG_MA]
     trends = []
 
@@ -16,6 +18,7 @@ def get_trend(all_closes):
         while count < data_length[x]:
             value = count - data_length[x]
             trend = all_closes[value]/trend_data[x][value]
+
             if trend > 1:
                 trend_value+=(trend-1)
             elif trend <= 1:
@@ -30,9 +33,9 @@ def get_trend(all_closes):
             trends.append(1)
         elif trend_value < 0:
             # Down trend
-            trends.append(0)
+            trends.append(-1)
         else:
             # No trend
-            trends.append(2)
+            trends.append(0)
 
-    return trends[0], trends[1]
+    return trends
