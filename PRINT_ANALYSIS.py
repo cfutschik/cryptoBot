@@ -12,6 +12,14 @@ from GET_ATR import get_ATR
 def print_analysis(all_data,DATA_PERIOD):
 
     dataSetInv = get_data()
+    #adjusting data set for priming period
+    dataSetInv.drop(dataSetInv.head(DATA_PERIOD).index, inplace=True)
+    all_data.pop(0)
+
+    #print(len(all_data))
+    #print(len(dataSetInv))
+    #print(dataSetInv)
+
     o = np.array(dataSetInv['open'])
     h = np.array(dataSetInv['high'])
     l = np.array(dataSetInv['low'])
@@ -19,11 +27,14 @@ def print_analysis(all_data,DATA_PERIOD):
     ATR = talib.ATR(h, l, c, timeperiod=14)
     MA = talib.MA(c, timeperiod=20, matype=0)
     MA_LONG = talib.MA(c, timeperiod=50, matype=0)
+    MA_LONG_LONG = talib.MA(c, timeperiod=100, matype=0)
     RSI = talib.RSI(l, timeperiod=14)
 
     dataSetInv['MA'] = MA
     dataSetInv['MA_LONG'] = MA_LONG
+    dataSetInv['MA_LONG_LONG'] = MA_LONG_LONG
     dataSetInv['RSI'] = RSI
+    dataSetInv['ATR'] = ATR
 
 #iteration variables
     Trend_s = []
@@ -36,44 +47,40 @@ def print_analysis(all_data,DATA_PERIOD):
     Sell_good = []
     Sell_marker = []
     Stop_loss = []
+    Near_peak = [] # 4hours
+    Far_peak = [] # 8hours
 
-    # [0]                        [1]                    [2]                        
-    #[[Short trend, long trend], [buy_1, buy_2, buy_3], [buy_close, sell_close, buy_marker, sell_stop]]
+# 0,                         1,                      2,                                            3,
+#[[Short trend, long trend], [buy_1, buy_2, buy_3], [buy_close, sell_close, buy_marker, sell_stop], [past peak, nearest peak]
 
-    #print(DATA_PERIOD)
+    #print(all_data[0][3][0]['high'])
 
-    y = 0 
-    while y < DATA_PERIOD-1:
-        Trend_s.append(np.nan)
-        Trend_l.append(np.nan)
-        Buy_1.append(np.nan)
-        Buy_2.append(np.nan)
-        Buy_3.append(np.nan)
-        Buy_x.append(np.nan)
-        Sell_x.append(np.nan)
-        Sell_good.append(np.nan)
-        Sell_marker.append(np.nan)
-        Stop_loss.append(np.nan)
-        y+=1
+    y = 0
+    for i in range(len(dataSetInv)):
 
-    y = 0 
-    while y < len(all_data):
-        Trend_s.append(all_data[y][0][0])
-        Trend_l.append(all_data[y][0][1])
-        Buy_1.append(all_data[y][1][0])
-        Buy_2.append(all_data[y][1][1])
-        Buy_3.append(all_data[y][1][2])
-        Buy_x.append(all_data[y][2][0]) 
-        Sell_x.append(all_data[y][2][1])
-        Sell_good.append(all_data[y][2][2])
-        Sell_marker.append(all_data[y][2][3])
-        Stop_loss.append(all_data[y][2][4])
-        y+=1
+            Trend_s.append(all_data[y][0][0])
+            Trend_l.append(all_data[y][0][1])
+            Buy_1.append(all_data[y][1][0])
+            Buy_2.append(all_data[y][1][1])
+            Buy_3.append(all_data[y][1][2])
+            Buy_x.append(all_data[y][2][0]) 
+            Sell_x.append(all_data[y][2][1])
+            Sell_good.append(all_data[y][2][2])
+            Sell_marker.append(all_data[y][2][3])
+            Stop_loss.append(all_data[y][2][4])
+            Near_peak.append(all_data[y][3][1]['high'])
+            Far_peak.append(all_data[y][3][0]['high'])
+            y+=1
 
+    #print(Near_peak)
     
+    #print(len(Near_peak))
+
     dataSetInv['Buy_x'] = Buy_x
     dataSetInv['Sell_x'] = Sell_x
     dataSetInv['Sell_good'] = Sell_good
+    dataSetInv['Near_peak'] = Near_peak
+    dataSetInv['Far_peak'] = Far_peak
 
     #print("Length data: "+str(len(o)))
     #print("Length ATR: "+str(len(ATR)))
@@ -109,30 +116,64 @@ def print_analysis(all_data,DATA_PERIOD):
                     line = dict(color="green"),
                     name = "Buy points"),
 
-                    go.Scatter(
-                    x=dataSetInv['date'],
-                    y=dataSetInv['Sell_x'],
-                    line = dict(color="yellow"),
-                    name = "Sell loss"),
+                    #go.Scatter(
+                    #x=dataSetInv['date'],
+                    #y=dataSetInv['Sell_x'],
+                    #line = dict(color="yellow"),
+                    #name = "Sell loss"),
+
+                    #go.Scatter(
+                    #x=dataSetInv['date'],
+                    #y=dataSetInv['Sell_good'],
+                    #line = dict(color="orange"),
+                    #name = "Sell gain"),
+
+                    #go.Scatter(
+                    #x=dataSetInv['date'],
+                    #y=dataSetInv['MA_LONG_LONG'],
+                    #line = dict(color="pink"),
+                    #name = "MA 100"),
+
+                    #go.Scatter(
+                    #x=dataSetInv['date'],
+                    #y=dataSetInv['Near_peak'],
+                    #line = dict(color="tomato"),
+                    #name = "Near Peak"),
 
                     go.Scatter(
                     x=dataSetInv['date'],
-                    y=dataSetInv['Sell_good'],
-                    line = dict(color="orange"),
-                    name = "Sell gain")],
+                    y=dataSetInv['Far_peak'],
+                    line = dict(color="honeydew"),
+                    name = "Far Peak")],
+
+                    #go.Scatter(
+                    #x=dataSetInv['date'],
+                    #y=dataSetInv['close'],
+                    #line = dict(color="grey"),
+                    #name = "closes")],
                     
-                    rows = [1, 1, 1, 1, 1, 1],
-                    cols = [1, 1, 1, 1, 1, 1])
+                    rows = [1, 1, 1, 1, 1],
+                    cols = [1, 1, 1, 1, 1])
 
-    fig1 = go.Figure(data = go.Scatter(
+    fig1 = make_subplots(rows=2)
+    fig1.add_traces([go.Scatter(
                     x=dataSetInv['date'],
                     y=dataSetInv['RSI'],
                     line = dict(color="magenta"),
-                    name = "RSI"))
+                    name = "RSI"),
+                    
+                    go.Scatter(
+                    x=dataSetInv['date'],
+                    y=dataSetInv['ATR'],
+                    line = dict(color="red"),
+                    name = "ATR")],
+                    
+                    rows = [1, 2],
+                    cols = [1, 1])
 
     fig.update_layout(xaxis_rangeslider_visible=False, template='plotly_dark')
     fig.show()
 
     fig1.update_layout(xaxis_rangeslider_visible=False, template='plotly_dark')
-    fig1.show()
+    #fig1.show()
 

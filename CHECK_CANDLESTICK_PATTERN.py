@@ -15,10 +15,6 @@ def check_candleStick_pattern(all_opens, all_highs, all_lows, all_closes):
     if open_prev > close_prev and close_now > open_now: #Bull
         if close_now > open_prev:
             candle[0] = 1
-            #print("open_prev: "+str(open_prev))
-            #print("close_prev: "+str(close_prev)) 
-            #print("open_now: "+str(open_now))
-            #print("close_now: "+str(close_now)+'\n')
 
             if close_now > high_prev: #above Bull
                 candle[1] = 'Close above'
@@ -32,14 +28,19 @@ def check_candleStick_pattern(all_opens, all_highs, all_lows, all_closes):
     #    else:
     #        candle[1] = 1
     
-    #38.2 candle
+    #38.2 candle Bullish
     if close_now > open_now: # Bull 38.2
         limit = float((high_now-low_now)*0.618+low_now)
         if float(open_now) > limit:
             candle[0] = 1
             candle[1] = '38.2 Candle'
-   
-    
+
+    if close_now < open_now:
+        limit = float((high_now-low_now)*0.618+low_now)
+        if float(close_now) > limit:
+            candle[0] = 1
+            candle[1] = '38.2 Candle'
+ 
     #elif close_now < open_now: # Bear 38.2
     #    candle[0] = 0
     #    if open_now < float((high_now-low_now)*38.2+low_now):

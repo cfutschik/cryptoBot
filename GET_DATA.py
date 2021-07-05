@@ -14,9 +14,9 @@ def get_data():
 
     df.drop(df.tail(25235).index, inplace=True)
     #df.drop(df.tail(290957).index, inplace=True)
-    df.reset_index(drop=True, inplace=True)
-
+    
     df = df.iloc[::-1] #inverting data
+    df.reset_index(drop=True, inplace=True)
 
     return df
 

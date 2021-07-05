@@ -17,11 +17,11 @@ def check_entry(all_opens, all_highs, all_lows, all_closes):
     ## Double Trend Safety
     #trend[short trend, long trend]
 
-    if trend[1] == 1 and trend[0] == 1: #both trends must be uptrending
-        if candle[0] == 1:
-            check[0] = 1
-            check[1] = all_closes[-1]
-            check[2] = candle[1]
+    #if trend[1] == 1 and trend[0] == 1: #both trends must be uptrending
+    if candle[0] == 1:
+        check[0] = 1
+        check[1] = all_closes[-1]
+        check[2] = candle[1]
 
 
 #          check = [0,0,0] -> [buy(1)/sell(-1)/nothing(0), close (if buy), type of candle stick(1,2,3)]
