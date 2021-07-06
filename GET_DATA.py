@@ -10,10 +10,11 @@ def get_data():
     df['date'] = pd.to_datetime(df['date']) #date corrector
 
     #df.drop(df.tail(307957).index, inplace=True) #minute
-    #df.drop(df.tail(27235).index, inplace=True) #hr
-
-    df.drop(df.tail(25235).index, inplace=True)
     #df.drop(df.tail(290957).index, inplace=True)
+    
+    #df.drop(df.tail(27235).index, inplace=True) #hr
+    df.drop(df.tail(23235).index, inplace=True)
+    
     
     df = df.iloc[::-1] #inverting data
     df.reset_index(drop=True, inplace=True)

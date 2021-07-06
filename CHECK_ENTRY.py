@@ -1,9 +1,18 @@
 from GET_TREND import get_trend
 from CHECK_CANDLESTICK_PATTERN import check_candleStick_pattern
+from GET_MA_GRAD import get_ma_grad
 
 def check_entry(all_opens, all_highs, all_lows, all_closes):
 
+    # 4 checks 
+    #   1. Candle stick patterns
+    #   2. Trend
+    #   3. Trend Gradient
+    #   4. RSI 
+
     check = [0,0,0]
+
+    ma_grad_data = get_ma_grad(all_closes,all_highs,all_lows,14)
     #       
     trend = get_trend(all_closes)
 

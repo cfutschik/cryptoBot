@@ -92,7 +92,6 @@ def execute_buy(PORTFOLIO, all_closes, all_highs, all_lows):
     #order = client.create_order(symbol=symbol, side=side, type=order_type, quantity=quantity)
     return
 
-
 if __name__ == "__main__":
 
 ### pretend ticker ####
@@ -148,7 +147,7 @@ if __name__ == "__main__":
     buy_1 = []        ##################################################################
     buy_2 = []        ##################################################################
     buy_3 = []        ##################################################################
-    bottom_value = 1700
+    bottom_value = 500
     buy_x = bottom_value
     sell_x = bottom_value
     sell_good = bottom_value
@@ -196,6 +195,8 @@ if __name__ == "__main__":
             #Finding trends
             entry = check_entry(all_opens, all_highs, all_lows, all_closes)
             #entry[buy/sell,close,type]
+
+            
 
             if entry[0] == 1:    
                 buy_x = all_closes[-1]
@@ -313,7 +314,8 @@ if __name__ == "__main__":
             all_data_subset.append(buy_subset)###############################################################
             buy_sell_points = [buy_x, sell_x, sell_good, buy_marker, sell_stop]
             all_data_subset.append(buy_sell_points)      
-            all_data_subset.append(peak_tracker)  
+            all_data_subset.append(peak_tracker)
+            all_data_subset.append(ma_grad_data)  
             all_analysis_data.append(all_data_subset)###############################################################
 
         x +=1 ##################################################################
