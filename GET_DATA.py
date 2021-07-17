@@ -1,23 +1,38 @@
-import pandas as pd
 import numpy as np
+from GET_MA import get_MA
 
-def get_data():
+def get_data(all_data, raw_data, DATA_PERIOD):
 
-    #df = pd.read_csv("Bitfinex_ETHUSD_minute.csv") #Length = 307957
-    df = pd.read_csv("Bitfinex_ETHUSD_1h.csv") #LEn = 27235
-    #df = pd.read_csv("Bitfinex_ETHUSD_d.csv")
-    #print(len(df))
-    df['date'] = pd.to_datetime(df['date']) #date corrector
+    if len(all_data['close']) < DATA_PERIOD:
+        #print('Getting data: '+str(len(all_data['date'])))
+        all_data['open'].append(np.float64(raw_data['k']['o']))
+        all_data['close'].append(np.float64(raw_data['k']['c']))
+        all_data['high'].append(np.float64(raw_data['k']['h']))
+        all_data['low'].append(np.float64(raw_data['k']['l']))
+        all_data['date'].append(raw_data['k']['T'])
+        all_data['20_MA'].append(np.NaN)
+        all_data['50_MA'].append(np.NaN)
 
-    #df.drop(df.tail(307957).index, inplace=True) #minute
-    #df.drop(df.tail(290957).index, inplace=True)
-    
-    #df.drop(df.tail(27235).index, inplace=True) #hr
-    df.drop(df.tail(23235).index, inplace=True)
-    
-    
-    df = df.iloc[::-1] #inverting data
-    df.reset_index(drop=True, inplace=True)
+        return False
 
-    return df
+    if len(all_data['close']) == DATA_PERIOD:
 
+        all_data['open'].pop(0)
+        all_data['close'].pop(0)
+        all_data['high'].pop(0)
+        all_data['low'].pop(0)
+        all_data['date'].pop(0)
+        all_data['20_MA'].pop(0)
+        all_data['50_MA'].pop(0)
+        
+        all_data['open'].append(np.float64(raw_data['k']['o']))
+        all_data['close'].append(np.float64(raw_data['k']['c']))
+        all_data['high'].append(np.float64(raw_data['k']['h']))
+        all_data['low'].append(np.float64(raw_data['k']['l']))
+        all_data['date'].append(raw_data['k']['T'])
+        
+        ma_20, ma_50 = get_MA(all_data['close'])
+        all_data['20_MA'].append(ma_20[-1])
+        all_data['50_MA'].append(ma_50[-1])
+
+        return True

@@ -1,14 +1,12 @@
+import numpy as np
 from GET_MA import get_MA
+#from GET_ATR import get_ATR
 
-def get_ma_grad(all_closes,all_highs,all_lows,dataperiod):
+def get_ma_grad(all_data):
 
-    ATR = get_ATR(all_closes,all_highs,all_lows,dataperiod)
-
-    avg_ATR = sum(ATR[-50:])/len(ATR[-50:])
-
-    ma_short, ma_long = get_MA(all_closes)
+    ma_short, ma_long = get_MA(all_data['close'])
     ma_data = [ma_short, ma_long]
-    x = [0, avg_ATR, 2*avg_ATR]
+    x = [0, 25, 50]
     grad_factor = []
 
     for i in range(len(ma_data)):

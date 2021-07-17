@@ -1,5 +1,5 @@
 def get_RSI_data():
-
+    
     with open('RSI1.txt','r') as file:
         for line in file:
             RSI = line.split(',')

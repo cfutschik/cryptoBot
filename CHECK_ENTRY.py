@@ -1,38 +1,31 @@
-from GET_TREND import get_trend
-from CHECK_CANDLESTICK_PATTERN import check_candleStick_pattern
 from GET_MA_GRAD import get_ma_grad
+from GET_TREND import get_trend
+from CHECK_CANDLESTICK_TREND import check_candlestick_trend
+from CHECK_MA_GRAD import check_ma_grad
+from CHECK_MA_TREND import check_ma_trend
+from CHECK_RSI import check_RSI
 
-def check_entry(all_opens, all_highs, all_lows, all_closes):
 
-    # 4 checks 
-    #   1. Candle stick patterns
+def check_entry(all_data):
+
+    #print('flag 2')
+    # 4 checks total
+    check = 0
+
+    #   1. Past 10 candle stick patterns
+    check += check_candlestick_trend(all_data)
+    #print('check_candlestick_trend')
+        
     #   2. Trend
-    #   3. Trend Gradient
+    check += check_ma_trend(all_data['close'])
+    #print('check_ma_trend')
+
+    #   3. Trend Gradient    
+    check += check_ma_grad(all_data)
+    #print('check_ma_grad')
+
     #   4. RSI 
-
-    check = [0,0,0]
-
-    ma_grad_data = get_ma_grad(all_closes,all_highs,all_lows,14)
-    #       
-    trend = get_trend(all_closes)
-
-    candle = check_candleStick_pattern(all_opens, all_highs, all_lows, all_closes)
-    #candle = [trend,type,0]
-
-    # Buy = 1
-    # Sell = 0
-    # Nothing = 2
-
-    ## Double Trend Safety
-    #trend[short trend, long trend]
-
-    #if trend[1] == 1 and trend[0] == 1: #both trends must be uptrending
-    if candle[0] == 1:
-        check[0] = 1
-        check[1] = all_closes[-1]
-        check[2] = candle[1]
-
-
-#          check = [0,0,0] -> [buy(1)/sell(-1)/nothing(0), close (if buy), type of candle stick(1,2,3)]
+    check += check_RSI(all_data['close'])
+    #print('check_RSI')
 
     return check
