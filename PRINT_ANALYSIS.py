@@ -6,12 +6,12 @@ from datetime import datetime
 import numpy as np
 import talib
 
-from GET_DATA import get_data
-from GET_ATR import get_ATR
+from GET_ALL_DATA import get_all_data
+#from GET_ATR import get_ATR
 
 def print_analysis(all_data,DATA_PERIOD):
 
-    dataSetInv = get_data()
+    dataSetInv = get_all_data()
     #adjusting data set for priming period
     dataSetInv.drop(dataSetInv.head(DATA_PERIOD).index, inplace=True)
     all_data.pop(0)
@@ -28,7 +28,7 @@ def print_analysis(all_data,DATA_PERIOD):
     MA = talib.MA(c, timeperiod=20, matype=0)
     MA_LONG = talib.MA(c, timeperiod=50, matype=0)
     MA_LONG_LONG = talib.MA(c, timeperiod=100, matype=0)
-    RSI = talib.RSI(l, timeperiod=14)
+    RSI = talib.RSI(c, timeperiod=14)
 
     dataSetInv['MA'] = MA
     dataSetInv['MA_LONG'] = MA_LONG
@@ -122,17 +122,17 @@ def print_analysis(all_data,DATA_PERIOD):
                     line = dict(color="green"),
                     name = "Buy points"),
 
-                    #go.Scatter(
-                    #x=dataSetInv['date'],
-                    #y=dataSetInv['Sell_x'],
-                    #line = dict(color="yellow"),
-                    #name = "Sell loss"),
+                    go.Scatter(
+                    x=dataSetInv['date'],
+                    y=dataSetInv['Sell_x'],
+                    line = dict(color="yellow"),
+                    name = "Sell loss"),
 
-                    #go.Scatter(
-                    #x=dataSetInv['date'],
-                    #y=dataSetInv['Sell_good'],
-                    #line = dict(color="orange"),
-                    #name = "Sell gain"),
+                    go.Scatter(
+                    x=dataSetInv['date'],
+                    y=dataSetInv['Sell_good'],
+                    line = dict(color="orange"),
+                    name = "Sell gain"),
 
                     #go.Scatter(
                     #x=dataSetInv['date'],
@@ -158,8 +158,8 @@ def print_analysis(all_data,DATA_PERIOD):
                     #line = dict(color="grey"),
                     #name = "closes")],
                     
-                    rows = [1, 1, 1, 1, 1],
-                    cols = [1, 1, 1, 1, 1])
+                    rows = [1, 1, 1, 1, 1, 1, 1],
+                    cols = [1, 1, 1, 1, 1, 1, 1])
 
     fig1 = make_subplots(rows=3)
     fig1.add_traces([go.Scatter(
@@ -196,8 +196,8 @@ def print_analysis(all_data,DATA_PERIOD):
                     cols = [1, 1, 1, 1])
 
     fig.update_layout(xaxis_rangeslider_visible=False, template='plotly_dark')
-    #fig.show()
+    fig.show()
 
     fig1.update_layout(xaxis_rangeslider_visible=False, template='plotly_dark')
-    fig1.show()
+    #fig1.show()
 

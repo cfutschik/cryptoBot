@@ -3,7 +3,7 @@ import numpy as np
 import websocket, json, config
 from binance.client import Client
 from binance.enums import *
-
+from datetime import datetime
 from MAIN_BOT import main_bot
 from GET_ALL_DATA import get_all_data
 from IMPORT_TRADE_PORTFOLIO import import_trade_portfolio
@@ -12,7 +12,6 @@ def binance_bot():
     client = Client(config.API_KEY, config.API_SECRET)
     SOCKET = "wss://stream.binance.com:9443/ws/ethusdt@kline_1m"
     DATA_PERIOD = 60
-    connectionTest = open('dataFiles/connectionTest.txt','w')
 
     all_data = {
         'open': [],
@@ -28,27 +27,9 @@ def binance_bot():
 
     ETH_BALANCE = round(float(client.get_account()['balances'][2]['free']),6)
     BUSD_BALANCE = round(float(client.get_account()['balances'][188]['free']),6)
-    #PORTFOLIO[0] = ETHBUSD
 
     PORTFOLIO[0]['Balance_1'] = ETH_BALANCE
     PORTFOLIO[0]['Balance_2'] = BUSD_BALANCE
-
-    #[{'Stock':'ETHBUSD',
-    #            'Balance_1': ETH_BALANCE, 
-    #            'Balance_2': BUSD_BALANCE, 
-    #            'TRD_QTY': 0.1,
-    #            'Position': False,
-    #            'buy_price': 0.0, 
-    #            'sell_conditions':{
-    #                'stop_loss': 0.0,
-    #                'sell_marker': 0.0,
-    #                'trail_stop': {
-    #                    'above_marker': False,
-    #                    'moving_SM' : 0.0,
-    #            }
-    #            }
-
-        #},{}]
 
     TEST = False
 
@@ -97,15 +78,24 @@ def binance_bot():
         def on_message(ws, message):
             global closes, in_position
             raw_data = json.loads(message)
-            print('Connected')
-            connectionTest.write('Connected')
 
-            try:
-                main_bot(raw_data, PORTFOLIO, DATA_PERIOD, all_data, False)
-            except:
-                print('Main Issue')
+            #fast data
+            if False:
+                try:    
+                    main_bot(raw_data, PORTFOLIO, DATA_PERIOD, all_data, False)
+                except Exception as e:
+                    print("Main issue - {}".format(e))
 
-            #if raw_data['k']['x']:
+            else:
+                if raw_data['k']['x']:
+                    try:
+                        main_bot(raw_data, PORTFOLIO, DATA_PERIOD, all_data, False)
+                        now = datetime.now()
+                        current_time = now.strftime("%H:%M:%S")
+                        print('Data update - ', current_time)
+                    except Exception as e:
+                        print("Main issue - {}".format(e))
+
 
         ws = websocket.WebSocketApp(SOCKET, on_open=on_open, on_close=on_close, on_message=on_message)
         ws.run_forever()             

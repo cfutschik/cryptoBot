@@ -5,10 +5,10 @@ from binance.enums import *
 
 SOCKET = "wss://stream.binance.com:9443/ws/ethusdt@kline_1m"
 RSI_PERIOD = 14
-RSI_OVERBOUGHT = 70
-RSI_OVERSOLD = 30
+#RSI_OVERBOUGHT = 70
+#RSI_OVERSOLD = 30
 TRADE_SYMBOL = 'ETHUSD'
-TRADE_QUANTITY = 0.05
+#TRADE_QUANTITY = 0.05
 
 #RSI_FILE = open("RSI.txt", "w")
 #DATA_FILE = open("Data.txt", "w")
@@ -37,11 +37,9 @@ def on_close(ws):
 
 def on_message(ws, message):
     global closes, in_position
-
-    print('recived message')
     json_message = json.loads(message)
     #pprint.pprint(json_message)
-
+    print(json_message['E'])
     candle = json_message['k']
 
     is_candle_closed = candle['x']
@@ -53,24 +51,13 @@ def on_message(ws, message):
         print("closes")
         print(closes)
 
-        print(type(json_message))
 
-        with open("Data.txt", "a") as myfile:
-            myfile.write(json.dumps(message))
-            myfile.write(',\n')
 
-        if len(closes) > RSI_PERIOD:
-            np_closes = numpy.array(closes)
-            rsi = talib.RSI(np_closes, RSI_PERIOD)
-            print("all rsis calculated so far")
-            print(rsi)
-            last_rsi = rsi[-1]
-            print("the current rsi is {}".format(last_rsi))
-            
-            with open("RSI.txt", "a") as myfile:
-                myfile.write(str(last_rsi))
-                myfile.write(',')
+
+
 
 
 ws = websocket.WebSocketApp(SOCKET, on_open=on_open, on_close=on_close, on_message=on_message)
 ws.run_forever()
+
+

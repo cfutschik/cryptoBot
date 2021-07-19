@@ -1,1 +1,1 @@
-{"Stock": "ETHBUSD", "Balance_1": 0.00095, "Balance_2": 111.936679, "TRD_QTY": 0.1, "Position": false, "buy_price": 1912.65, "sell_conditions": {"stop_loss": 1909.6620667282964, "sell_marker": 1915.8258665434075, "trail_stop": {"above_marker": false, "moving_SM": 0.0}}}
+{"Stock": "ETHBUSD", "Balance_1": 0.005439, "Balance_2": 103.080625, "TRD_QTY": 0.1, "Position": true, "buy_price": 1890.39, "sell_conditions": {"stop_loss": 1886.4640358424822, "sell_marker": 1895.0019283150357, "trail_stop": {"above_marker": true, "moving_SM": 1907.2872933242752}}}
