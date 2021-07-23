@@ -6,9 +6,6 @@ def write_data(all_data, PORTFOLIO, tradeWrite):
     with open('dataFiles/candle_stick_data.csv', 'a', newline='') as f:
         data_writer = csv.writer(f, delimiter=',',quoting=csv.QUOTE_MINIMAL)
 
-        if len(all_data['date']) < 2:
-            data_writer.writerow(['date', 'high', 'low', 'open', 'close', '20_MA', '50_MA'])
-
         data_writer.writerow([all_data['date'][-1],
                             all_data['high'][-1], 
                             all_data['low'][-1],

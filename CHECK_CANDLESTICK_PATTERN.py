@@ -1,17 +1,17 @@
-def check_candleStick_pattern(all_data):
+def check_candleStick_pattern(all_data, offset):
     #print('flag 4')
     candle = 0
     # bull = 1
     # bear = -1
     
-    open_now = all_data['open'][-1]
-    open_prev = all_data['open'][-2]
-    high_now = all_data['high'][-1]
-    high_prev = all_data['high'][-2]
-    low_now = all_data['low'][-1]
-    low_prev = all_data['low'][-2]
-    close_now = all_data['close'][-1]
-    close_prev = all_data['close'][-2] 
+    open_now = all_data['open'][-2-offset]
+    open_prev = all_data['open'][-3-offset]
+    high_now = all_data['high'][-2-offset]
+    high_prev = all_data['high'][-3-offset]
+    low_now = all_data['low'][-2-offset]
+    low_prev = all_data['low'][-3-offset]
+    close_now = all_data['close'][-2-offset]
+    close_prev = all_data['close'][-3-offset] 
     
     #Bullish Engulfing & above-below candle
     if open_prev > close_prev and close_now > open_now:

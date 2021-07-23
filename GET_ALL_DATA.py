@@ -10,7 +10,7 @@ def get_all_data():
     df['date'] = pd.to_datetime(df['date']) #date corrector
 
     #df.drop(df.tail(307957).index, inplace=True) #minute
-    df.drop(df.tail(250957).index, inplace=True)
+    df.drop(df.tail(304957).index, inplace=True)
     
     #df.drop(df.tail(27235).index, inplace=True) #hr
     #df.drop(df.tail(24235).index, inplace=True)

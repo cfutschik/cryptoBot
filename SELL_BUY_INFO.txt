@@ -1,0 +1,2243 @@
+Position: 2021-05-11 01:20:00
+BUYING STOCK @ 3884.7
+ATR: 18.998
+Candle size: 19.8
+Stop loss: 3849.902 / Sell_marker: 3922.697
+Risk/Reward Ratio: 1.092
+SELLING STOCK @ 3846.1 - profit/loss: 0.991042184673553
+
+Position: 2021-05-11 03:39:00
+BUYING STOCK @ 3838.2
+ATR: 13.818
+Candle size: 11.1
+Stop loss: 3815.582 / Sell_marker: 3865.837
+Risk/Reward Ratio: 1.222
+SELLING STOCK @ 3865.5 - profit/loss: 1.0072004659065354
+
+Position: 2021-05-11 04:10:00
+BUYING STOCK @ 3857.5
+ATR: 9.206
+Candle size: 6.5
+Stop loss: 3847.994 / Sell_marker: 3875.911
+Risk/Reward Ratio: 1.937
+Moving SM: 3880.161
+SELLING STOCK @ 3877.3 - profit/loss: 1.0058745853673379
+
+Position: 2021-05-11 04:22:00
+BUYING STOCK @ 3874.847
+ATR: 6.834
+Candle size: 2.453
+Stop loss: 3868.013 / Sell_marker: 3888.515
+Risk/Reward Ratio: 2.0
+Moving SM: 3909.733
+SELLING STOCK @ 3906.646 - profit/loss: 1.0090031023706185
+
+Position: 2021-05-11 04:40:00
+BUYING STOCK @ 3906.6
+ATR: 6.705
+Candle size: 6.3
+Stop loss: 3894.695 / Sell_marker: 3920.011
+Risk/Reward Ratio: 1.126
+SELLING STOCK @ 3890.1 - profit/loss: 0.9969524984653065
+
+Position: 2021-05-11 04:46:00
+BUYING STOCK @ 3888.716
+ATR: 6.24
+Candle size: 4.2
+Stop loss: 3880.46 / Sell_marker: 3901.196
+Risk/Reward Ratio: 1.512
+SELLING STOCK @ 3878.1 - profit/loss: 0.9978769321087009
+
+Position: 2021-05-11 04:51:00
+BUYING STOCK @ 3892.1
+ATR: 7.858
+Candle size: 12.5
+Stop loss: 3873.242 / Sell_marker: 3907.816
+Risk/Reward Ratio: 0.833
+SELLING STOCK @ 3906.2 - profit/loss: 1.0040379039562586
+
+Position: 2021-05-11 04:58:00
+BUYING STOCK @ 3906.5
+ATR: 7.269
+Candle size: 2.4
+Stop loss: 3899.231 / Sell_marker: 3921.038
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 3894.5 - profit/loss: 0.9981392636898266
+
+Position: 2021-05-11 05:19:00
+BUYING STOCK @ 3910.6
+ATR: 8.98
+Candle size: 15.434
+Stop loss: 3897.186 / Sell_marker: 3928.561
+Risk/Reward Ratio: 1.339
+SELLING STOCK @ 3896.137 - profit/loss: 0.9965697800831322
+
+Position: 2021-05-11 05:23:00
+BUYING STOCK @ 3901.5
+ATR: 8.881
+Candle size: 7.7
+Stop loss: 3887.319 / Sell_marker: 3919.263
+Risk/Reward Ratio: 1.253
+SELLING STOCK @ 3880.201 - profit/loss: 0.9963651675327725
+
+Position: 2021-05-11 05:56:00
+BUYING STOCK @ 3892.9
+ATR: 8.518
+Candle size: 9.9
+Stop loss: 3879.382 / Sell_marker: 3909.936
+Risk/Reward Ratio: 1.26
+SELLING STOCK @ 3878.805 - profit/loss: 0.996527558641505
+
+Position: 2021-05-11 06:01:00
+BUYING STOCK @ 3893.8
+ATR: 9.711
+Candle size: 18.9
+Stop loss: 3865.189 / Sell_marker: 3913.223
+Risk/Reward Ratio: 0.679
+Moving SM: 3925.393
+SELLING STOCK @ 3921.0 - profit/loss: 1.0081136130258732
+
+Position: 2021-05-11 06:28:00
+BUYING STOCK @ 3923.1
+ATR: 6.58
+Candle size: 2.9
+Stop loss: 3913.62 / Sell_marker: 3936.259
+Risk/Reward Ratio: 1.388
+SELLING STOCK @ 3931.5 - profit/loss: 1.0033542573984078
+
+Position: 2021-05-11 06:37:00
+BUYING STOCK @ 3932.7
+ATR: 5.648
+Candle size: 3.5
+Stop loss: 3924.452 / Sell_marker: 3943.996
+Risk/Reward Ratio: 1.37
+Moving SM: 3954.42
+SELLING STOCK @ 3953.498 - profit/loss: 1.0055228227594009
+
+Position: 2021-05-11 06:56:00
+BUYING STOCK @ 3953.9
+ATR: 4.908
+Candle size: 1.1
+Stop loss: 3948.092 / Sell_marker: 3963.717
+Risk/Reward Ratio: 1.69
+SELLING STOCK @ 3947.422 - profit/loss: 0.9985309645366756
+
+Position: 2021-05-11 06:59:00
+BUYING STOCK @ 3942.4
+ATR: 5.545
+Candle size: 10.4
+Stop loss: 3934.855 / Sell_marker: 3953.49
+Risk/Reward Ratio: 1.47
+SELLING STOCK @ 3930.1 - profit/loss: 0.9980861846125098
+
+Position: 2021-05-11 07:19:00
+BUYING STOCK @ 3947.9
+ATR: 6.673
+Candle size: 3.7
+Stop loss: 3937.527 / Sell_marker: 3961.246
+Risk/Reward Ratio: 1.287
+SELLING STOCK @ 3937.3 - profit/loss: 0.9973725484377335
+
+Position: 2021-05-11 07:22:00
+BUYING STOCK @ 3937.7
+ATR: 6.815
+Candle size: 4.4
+Stop loss: 3927.285 / Sell_marker: 3951.329
+Risk/Reward Ratio: 1.309
+SELLING STOCK @ 3923.182 - profit/loss: 0.9973551628096331
+
+Position: 2021-05-11 07:48:00
+BUYING STOCK @ 3941.1
+ATR: 7.118
+Candle size: 9.6
+Stop loss: 3927.982 / Sell_marker: 3955.336
+Risk/Reward Ratio: 1.085
+Moving SM: 3960.584
+SELLING STOCK @ 3956.3 - profit/loss: 1.0049438428732986
+
+Position: 2021-05-11 08:04:00
+BUYING STOCK @ 3945.0
+ATR: 6.707
+Candle size: 9.354
+Stop loss: 3938.093 / Sell_marker: 3958.414
+Risk/Reward Ratio: 1.942
+SELLING STOCK @ 3956.108 - profit/loss: 1.0034001478853618
+
+Position: 2021-05-11 08:09:00
+BUYING STOCK @ 3958.184
+ATR: 7.096
+Candle size: 5.7
+Stop loss: 3949.104 / Sell_marker: 3972.377
+Risk/Reward Ratio: 1.563
+SELLING STOCK @ 3942.9 - profit/loss: 0.9977058178833178
+
+Position: 2021-05-11 08:21:00
+BUYING STOCK @ 3922.8
+ATR: 6.159
+Candle size: 3.812
+Stop loss: 3913.829 / Sell_marker: 3935.118
+Risk/Reward Ratio: 1.373
+SELLING STOCK @ 3913.828 - profit/loss: 0.9977131067122291
+
+Position: 2021-05-11 09:04:00
+BUYING STOCK @ 3930.4
+ATR: 7.282
+Candle size: 8.292
+Stop loss: 3916.326 / Sell_marker: 3944.964
+Risk/Reward Ratio: 1.035
+Moving SM: 3948.972
+SELLING STOCK @ 3946.7 - profit/loss: 1.0047251185829498
+
+Position: 2021-05-11 09:17:00
+BUYING STOCK @ 3943.1
+ATR: 6.556
+Candle size: 7.3
+Stop loss: 3934.544 / Sell_marker: 3956.213
+Risk/Reward Ratio: 1.533
+SELLING STOCK @ 3933.1 - profit/loss: 0.9978300562452527
+
+Position: 2021-05-11 09:30:00
+BUYING STOCK @ 3938.9
+ATR: 6.163
+Candle size: 8.7
+Stop loss: 3924.037 / Sell_marker: 3951.225
+Risk/Reward Ratio: 0.829
+Moving SM: 3953.521
+SELLING STOCK @ 3953.1 - profit/loss: 1.0037120324716993
+
+Position: 2021-05-11 09:45:00
+BUYING STOCK @ 3957.3
+ATR: 5.752
+Candle size: 7.4
+Stop loss: 3948.348 / Sell_marker: 3968.804
+Risk/Reward Ratio: 1.285
+Moving SM: 4009.47
+SELLING STOCK @ 4004.1 - profit/loss: 1.0131831191761929
+
+Position: 2021-05-11 09:59:00
+BUYING STOCK @ 4013.3
+ATR: 7.432
+Candle size: 10.1
+Stop loss: 3997.368 / Sell_marker: 4028.165
+Risk/Reward Ratio: 0.933
+Moving SM: 4038.251
+SELLING STOCK @ 4036.7 - profit/loss: 1.0062171506426825
+
+Position: 2021-05-11 10:10:00
+BUYING STOCK @ 4042.9
+ATR: 7.941
+Candle size: 6.2
+Stop loss: 4028.759 / Sell_marker: 4058.783
+Risk/Reward Ratio: 1.123
+SELLING STOCK @ 4056.193 - profit/loss: 1.0039284932336534
+
+Position: 2021-05-11 10:33:00
+BUYING STOCK @ 4047.0
+ATR: 7.28
+Candle size: 10.055
+Stop loss: 4039.665 / Sell_marker: 4061.56
+Risk/Reward Ratio: 1.985
+SELLING STOCK @ 4039.574 - profit/loss: 0.9981876673745952
+
+Position: 2021-05-11 10:44:00
+BUYING STOCK @ 4043.9
+ATR: 7.026
+Candle size: 2.0
+Stop loss: 4034.874 / Sell_marker: 4057.952
+Risk/Reward Ratio: 1.557
+SELLING STOCK @ 4034.3 - profit/loss: 0.9977680375991902
+
+Position: 2021-05-11 10:49:00
+BUYING STOCK @ 4034.9
+ATR: 7.206
+Candle size: 5.71
+Stop loss: 4023.394 / Sell_marker: 4049.313
+Risk/Reward Ratio: 1.253
+SELLING STOCK @ 4040.0 - profit/loss: 1.0035720711469016
+
+Position: 2021-05-11 11:19:00
+BUYING STOCK @ 4043.4
+ATR: 6.121
+Candle size: 3.3
+Stop loss: 4035.179 / Sell_marker: 4055.642
+Risk/Reward Ratio: 1.489
+SELLING STOCK @ 4034.7 - profit/loss: 0.9979667611763148
+
+Position: 2021-05-11 11:32:00
+BUYING STOCK @ 4035.9
+ATR: 5.84
+Candle size: 6.482
+Stop loss: 4023.578 / Sell_marker: 4047.579
+Risk/Reward Ratio: 0.948
+SELLING STOCK @ 4021.9 - profit/loss: 0.9969469935716324
+
+Position: 2021-05-11 12:49:00
+BUYING STOCK @ 3948.9
+ATR: 9.476
+Candle size: 7.4
+Stop loss: 3935.724 / Sell_marker: 3967.853
+Risk/Reward Ratio: 1.438
+SELLING STOCK @ 3961.6 - profit/loss: 1.00479955239546
+
+Position: 2021-05-11 12:58:00
+BUYING STOCK @ 3961.4
+ATR: 8.017
+Candle size: 4.823
+Stop loss: 3951.06 / Sell_marker: 3977.434
+Risk/Reward Ratio: 1.551
+SELLING STOCK @ 3975.609 - profit/loss: 1.004047503702965
+
+Position: 2021-05-11 13:08:00
+BUYING STOCK @ 3963.1
+ATR: 7.758
+Candle size: 12.65
+Stop loss: 3955.342 / Sell_marker: 3978.616
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 3949.435 - profit/loss: 0.9980424026188445
+
+Position: 2021-05-11 13:15:00
+BUYING STOCK @ 3945.0
+ATR: 7.461
+Candle size: 8.7
+Stop loss: 3928.839 / Sell_marker: 3959.923
+Risk/Reward Ratio: 0.923
+SELLING STOCK @ 3923.1 - profit/loss: 0.9959033448727143
+
+Position: 2021-05-11 13:41:00
+BUYING STOCK @ 3926.9
+ATR: 9.711
+Candle size: 8.7
+Stop loss: 3911.489 / Sell_marker: 3946.322
+Risk/Reward Ratio: 1.26
+Moving SM: 3957.241
+SELLING STOCK @ 3956.9 - profit/loss: 1.0077264970616422
+
+Position: 2021-05-11 13:59:00
+BUYING STOCK @ 3975.81
+ATR: 8.616
+Candle size: 7.005
+Stop loss: 3960.189 / Sell_marker: 3993.043
+Risk/Reward Ratio: 1.103
+SELLING STOCK @ 3958.4 - profit/loss: 0.9960708997738681
+
+Position: 2021-05-11 14:03:00
+BUYING STOCK @ 3965.125
+ATR: 8.825
+Candle size: 13.65
+Stop loss: 3949.375 / Sell_marker: 3982.776
+Risk/Reward Ratio: 1.121
+SELLING STOCK @ 3948.1 - profit/loss: 0.9960276810275613
+
+Position: 2021-05-11 14:06:00
+BUYING STOCK @ 3949.498
+ATR: 8.976
+Candle size: 5.963
+Stop loss: 3936.124 / Sell_marker: 3967.45
+Risk/Reward Ratio: 1.342
+SELLING STOCK @ 3961.1 - profit/loss: 1.0045453964061581
+
+Position: 2021-05-11 14:22:00
+BUYING STOCK @ 3963.122
+ATR: 7.689
+Candle size: 7.8
+Stop loss: 3951.411 / Sell_marker: 3978.5
+Risk/Reward Ratio: 1.313
+SELLING STOCK @ 3946.051 - profit/loss: 0.9970450845530869
+
+Position: 2021-05-11 14:33:00
+BUYING STOCK @ 3957.8
+ATR: 7.36
+Candle size: 5.949
+Stop loss: 3944.491 / Sell_marker: 3972.52
+Risk/Reward Ratio: 1.106
+Moving SM: 3991.278
+SELLING STOCK @ 3986.0 - profit/loss: 1.0084587439616144
+
+Position: 2021-05-11 14:47:00
+BUYING STOCK @ 3979.9
+ATR: 9.17
+Candle size: 15.5
+Stop loss: 3962.23 / Sell_marker: 3998.24
+Risk/Reward Ratio: 1.038
+SELLING STOCK @ 3990.1 - profit/loss: 1.0046081471257557
+
+Position: 2021-05-11 15:04:00
+BUYING STOCK @ 3979.1
+ATR: 8.064
+Candle size: 10.2
+Stop loss: 3971.036 / Sell_marker: 3995.228
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 3965.5 - profit/loss: 0.9979733683033087
+
+Position: 2021-05-11 15:08:00
+BUYING STOCK @ 3980.9
+ATR: 8.187
+Candle size: 4.7
+Stop loss: 3968.013 / Sell_marker: 3997.273
+Risk/Reward Ratio: 1.271
+Moving SM: 4000.413
+SELLING STOCK @ 3997.6 - profit/loss: 1.0049017127193538
+
+Position: 2021-05-11 15:24:00
+BUYING STOCK @ 4005.9
+ATR: 7.371
+Candle size: 9.8
+Stop loss: 3988.729 / Sell_marker: 4020.642
+Risk/Reward Ratio: 0.859
+SELLING STOCK @ 4011.094 - profit/loss: 1.0036801083016285
+
+Position: 2021-05-11 15:33:00
+BUYING STOCK @ 4020.2
+ATR: 8.299
+Candle size: 10.665
+Stop loss: 4002.937 / Sell_marker: 4036.797
+Risk/Reward Ratio: 0.961
+Moving SM: 4063.135
+SELLING STOCK @ 4055.0 - profit/loss: 1.010679700806447
+
+Position: 2021-05-11 16:10:00
+BUYING STOCK @ 4071.3
+ATR: 8.324
+Candle size: 16.3
+Stop loss: 4046.676 / Sell_marker: 4087.949
+Risk/Reward Ratio: 0.676
+SELLING STOCK @ 4041.737 - profit/loss: 0.9939517281825855
+
+Position: 2021-05-11 16:16:00
+BUYING STOCK @ 4036.8
+ATR: 9.145
+Candle size: 6.5
+Stop loss: 4025.055 / Sell_marker: 4055.09
+Risk/Reward Ratio: 1.557
+SELLING STOCK @ 4048.9 - profit/loss: 1.0045307000737094
+
+Position: 2021-05-11 16:23:00
+BUYING STOCK @ 4046.2
+ATR: 9.562
+Candle size: 6.468
+Stop loss: 4032.638 / Sell_marker: 4065.325
+Risk/Reward Ratio: 1.41
+SELLING STOCK @ 4029.1 - profit/loss: 0.9966481271785832
+
+Position: 2021-05-11 16:33:00
+BUYING STOCK @ 4029.9
+ATR: 8.397
+Candle size: 5.6
+Stop loss: 4016.603 / Sell_marker: 4046.693
+Risk/Reward Ratio: 1.263
+SELLING STOCK @ 4008.2 - profit/loss: 0.996700485024257
+
+Position: 2021-05-11 17:01:00
+BUYING STOCK @ 4010.9
+ATR: 6.69
+Candle size: 5.016
+Stop loss: 3999.51 / Sell_marker: 4024.279
+Risk/Reward Ratio: 1.175
+Moving SM: 4032.227
+SELLING STOCK @ 4027.8 - profit/loss: 1.0053173663950032
+
+Position: 2021-05-11 17:08:00
+BUYING STOCK @ 4035.9
+ATR: 8.019
+Candle size: 10.8
+Stop loss: 4017.081 / Sell_marker: 4051.938
+Risk/Reward Ratio: 0.852
+SELLING STOCK @ 4012.1 - profit/loss: 0.9953370871947919
+
+Position: 2021-05-11 17:22:00
+BUYING STOCK @ 4030.849
+ATR: 7.306
+Candle size: 5.3
+Stop loss: 4022.094 / Sell_marker: 4045.46
+Risk/Reward Ratio: 1.669
+SELLING STOCK @ 4042.1 - profit/loss: 1.0036248258931255
+
+Position: 2021-05-11 17:41:00
+BUYING STOCK @ 4034.4
+ATR: 6.14
+Candle size: 6.361
+Stop loss: 4028.099 / Sell_marker: 4046.68
+Risk/Reward Ratio: 1.949
+SELLING STOCK @ 4026.2 - profit/loss: 0.9984382520786489
+
+Position: 2021-05-11 17:49:00
+BUYING STOCK @ 4032.556
+ATR: 5.61
+Candle size: 4.763
+Stop loss: 4022.527 / Sell_marker: 4043.776
+Risk/Reward Ratio: 1.119
+SELLING STOCK @ 4043.1 - profit/loss: 1.0027823549851516
+
+Position: 2021-05-11 17:58:00
+BUYING STOCK @ 4041.1
+ATR: 5.739
+Candle size: 4.775
+Stop loss: 4033.686 / Sell_marker: 4052.579
+Risk/Reward Ratio: 1.548
+SELLING STOCK @ 4033.1 - profit/loss: 0.9981652305963181
+
+Position: 2021-05-11 18:10:00
+BUYING STOCK @ 4047.369
+ATR: 6.075
+Candle size: 6.0
+Stop loss: 4035.825 / Sell_marker: 4059.519
+Risk/Reward Ratio: 1.053
+Moving SM: 4074.257
+SELLING STOCK @ 4073.2 - profit/loss: 1.0066433215692723
+
+Position: 2021-05-11 18:29:00
+BUYING STOCK @ 4080.9
+ATR: 5.707
+Candle size: 2.8
+Stop loss: 4072.393 / Sell_marker: 4092.315
+Risk/Reward Ratio: 1.342
+SELLING STOCK @ 4082.895 - profit/loss: 1.0027971693224977
+
+Position: 2021-05-11 18:38:00
+BUYING STOCK @ 4077.854
+ATR: 6.21
+Candle size: 10.124
+Stop loss: 4071.166 / Sell_marker: 4090.273
+Risk/Reward Ratio: 1.857
+SELLING STOCK @ 4064.9 - profit/loss: 0.9983600230465381
+
+Position: 2021-05-11 18:40:00
+BUYING STOCK @ 4070.9
+ATR: 6.842
+Candle size: 5.4
+Stop loss: 4058.658 / Sell_marker: 4084.584
+Risk/Reward Ratio: 1.118
+SELLING STOCK @ 4056.1 - profit/loss: 0.9969927465095295
+
+Position: 2021-05-11 18:46:00
+BUYING STOCK @ 4062.2
+ATR: 7.649
+Candle size: 10.689
+Stop loss: 4045.451 / Sell_marker: 4077.497
+Risk/Reward Ratio: 0.913
+SELLING STOCK @ 4043.5 - profit/loss: 0.9958769322821769
+
+Position: 2021-05-11 18:55:00
+BUYING STOCK @ 4054.45
+ATR: 6.585
+Candle size: 6.3
+Stop loss: 4041.715 / Sell_marker: 4067.62
+Risk/Reward Ratio: 1.034
+Moving SM: 4070.126
+SELLING STOCK @ 4070.1 - profit/loss: 1.0038665168383247
+
+Position: 2021-05-11 19:08:00
+BUYING STOCK @ 4063.944
+ATR: 6.259
+Candle size: 7.256
+Stop loss: 4057.685 / Sell_marker: 4076.463
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 4055.347 - profit/loss: 0.9984597777824441
+
+Position: 2021-05-11 19:10:00
+BUYING STOCK @ 4048.9
+ATR: 7.209
+Candle size: 8.7
+Stop loss: 4036.191 / Sell_marker: 4063.318
+Risk/Reward Ratio: 1.134
+SELLING STOCK @ 4050.0 - profit/loss: 1.0035608625253964
+
+Position: 2021-05-11 19:43:00
+BUYING STOCK @ 4049.088
+ATR: 5.058
+Candle size: 5.5
+Stop loss: 4041.242 / Sell_marker: 4059.205
+Risk/Reward Ratio: 1.289
+SELLING STOCK @ 4039.1 - profit/loss: 0.9980621435065958
+
+Position: 2021-05-11 20:00:00
+BUYING STOCK @ 4068.4
+ATR: 4.783
+Candle size: 8.082
+Stop loss: 4057.535 / Sell_marker: 4077.967
+Risk/Reward Ratio: 0.88
+SELLING STOCK @ 4056.149 - profit/loss: 0.9973294122407963
+
+Position: 2021-05-11 20:06:00
+BUYING STOCK @ 4059.2
+ATR: 5.334
+Candle size: 12.502
+Stop loss: 4043.766 / Sell_marker: 4069.868
+Risk/Reward Ratio: 0.691
+SELLING STOCK @ 4069.1 - profit/loss: 1.0026281406559696
+
+Position: 2021-05-11 20:18:00
+BUYING STOCK @ 4068.4
+ATR: 5.764
+Candle size: 5.243
+Stop loss: 4057.393 / Sell_marker: 4079.927
+Risk/Reward Ratio: 1.047
+Moving SM: 4107.581
+SELLING STOCK @ 4105.0 - profit/loss: 1.0096305372337062
+
+Position: 2021-05-11 20:34:00
+BUYING STOCK @ 4095.534
+ATR: 7.149
+Candle size: 13.1
+Stop loss: 4088.251 / Sell_marker: 4109.832
+Risk/Reward Ratio: 1.963
+Moving SM: 4116.359
+SELLING STOCK @ 4115.9 - profit/loss: 1.0050849792343084
+
+Position: 2021-05-11 20:48:00
+BUYING STOCK @ 4121.7
+ATR: 6.365
+Candle size: 8.4
+Stop loss: 4109.035 / Sell_marker: 4134.429
+Risk/Reward Ratio: 1.005
+Moving SM: 4143.787
+SELLING STOCK @ 4143.4 - profit/loss: 1.0053587959709323
+
+Position: 2021-05-11 21:04:00
+BUYING STOCK @ 4135.9
+ATR: 7.741
+Candle size: 12.266
+Stop loss: 4123.459 / Sell_marker: 4151.381
+Risk/Reward Ratio: 1.244
+SELLING STOCK @ 4121.265 - profit/loss: 0.996992064968661
+
+Position: 2021-05-11 21:13:00
+BUYING STOCK @ 4123.1
+ATR: 7.802
+Candle size: 6.0
+Stop loss: 4115.298 / Sell_marker: 4138.704
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 4131.1 - profit/loss: 1.003784571471155
+
+Position: 2021-05-11 21:20:00
+BUYING STOCK @ 4132.9
+ATR: 7.529
+Candle size: 5.7
+Stop loss: 4119.671 / Sell_marker: 4147.957
+Risk/Reward Ratio: 1.138
+SELLING STOCK @ 4115.9 - profit/loss: 0.9967991768739652
+
+Position: 2021-05-11 22:02:00
+BUYING STOCK @ 4128.1
+ATR: 7.086
+Candle size: 7.0
+Stop loss: 4120.814 / Sell_marker: 4142.273
+Risk/Reward Ratio: 1.945
+SELLING STOCK @ 4111.1 - profit/loss: 0.9982349079472
+
+Position: 2021-05-11 22:08:00
+BUYING STOCK @ 4126.5
+ATR: 8.794
+Candle size: 6.0
+Stop loss: 4112.106 / Sell_marker: 4144.088
+Risk/Reward Ratio: 1.222
+SELLING STOCK @ 4110.8 - profit/loss: 0.9965117537958731
+
+Position: 2021-05-11 22:16:00
+BUYING STOCK @ 4112.1
+ATR: 7.589
+Candle size: 2.7
+Stop loss: 4101.811 / Sell_marker: 4127.279
+Risk/Reward Ratio: 1.475
+SELLING STOCK @ 4099.1 - profit/loss: 0.9974977732324983
+
+Position: 2021-05-11 22:35:00
+BUYING STOCK @ 4127.2
+ATR: 5.808
+Candle size: 3.982
+Stop loss: 4119.31 / Sell_marker: 4138.816
+Risk/Reward Ratio: 1.472
+SELLING STOCK @ 4136.7 - profit/loss: 1.0028144377227364
+
+Position: 2021-05-11 23:07:00
+BUYING STOCK @ 4134.6
+ATR: 4.438
+Candle size: 3.7
+Stop loss: 4128.662 / Sell_marker: 4143.476
+Risk/Reward Ratio: 1.495
+Moving SM: 4149.616
+SELLING STOCK @ 4148.1 - profit/loss: 1.003631879386203
+
+Position: 2021-05-11 23:25:00
+BUYING STOCK @ 4145.1
+ATR: 5.008
+Candle size: 4.647
+Stop loss: 4138.392 / Sell_marker: 4155.115
+Risk/Reward Ratio: 1.493
+SELLING STOCK @ 4138.1 - profit/loss: 0.9983818083028938
+
+Position: 2021-05-11 23:35:00
+BUYING STOCK @ 4137.5
+ATR: 5.092
+Candle size: 4.7
+Stop loss: 4128.108 / Sell_marker: 4147.685
+Risk/Reward Ratio: 1.084
+Moving SM: 4172.809
+SELLING STOCK @ 4171.6 - profit/loss: 1.0085338537295057
+
+Position: 2021-05-11 23:59:00
+BUYING STOCK @ 4172.7
+ATR: 4.903
+Candle size: 4.2
+Stop loss: 4163.597 / Sell_marker: 4182.506
+Risk/Reward Ratio: 1.077
+SELLING STOCK @ 4156.1 - profit/loss: 0.9978184958328395
+
+Position: 2021-05-12 00:02:00
+BUYING STOCK @ 4163.7
+ATR: 6.506
+Candle size: 11.0
+Stop loss: 4149.694 / Sell_marker: 4176.712
+Risk/Reward Ratio: 0.929
+SELLING STOCK @ 4173.613 - profit/loss: 1.0031252008048392
+
+Position: 2021-05-12 00:07:00
+BUYING STOCK @ 4178.672
+ATR: 7.73
+Candle size: 8.7
+Stop loss: 4165.87 / Sell_marker: 4194.131
+Risk/Reward Ratio: 1.208
+SELLING STOCK @ 4165.61 - profit/loss: 0.9969364752912946
+
+Position: 2021-05-12 00:18:00
+BUYING STOCK @ 4159.5
+ATR: 6.533
+Candle size: 4.8
+Stop loss: 4148.567 / Sell_marker: 4172.566
+Risk/Reward Ratio: 1.195
+SELLING STOCK @ 4171.0 - profit/loss: 1.0031411804624626
+
+Position: 2021-05-12 00:30:00
+BUYING STOCK @ 4169.5
+ATR: 5.69
+Candle size: 2.6
+Stop loss: 4161.31 / Sell_marker: 4180.881
+Risk/Reward Ratio: 1.39
+SELLING STOCK @ 4158.6 - profit/loss: 0.9980356272326059
+
+Position: 2021-05-12 00:42:00
+BUYING STOCK @ 4163.1
+ATR: 5.525
+Candle size: 8.2
+Stop loss: 4150.575 / Sell_marker: 4174.151
+Risk/Reward Ratio: 0.882
+Moving SM: 4180.529
+SELLING STOCK @ 4178.3 - profit/loss: 1.0041865956895955
+
+Position: 2021-05-12 00:57:00
+BUYING STOCK @ 4181.8
+ATR: 6.678
+Candle size: 14.5
+Stop loss: 4173.422 / Sell_marker: 4195.156
+Risk/Reward Ratio: 1.594
+SELLING STOCK @ 4173.3 - profit/loss: 0.9979965104098141
+
+Position: 2021-05-12 01:13:00
+BUYING STOCK @ 4175.0
+ATR: 4.573
+Candle size: 3.9
+Stop loss: 4166.527 / Sell_marker: 4184.145
+Risk/Reward Ratio: 1.079
+SELLING STOCK @ 4161.5 - profit/loss: 0.997970620339367
+
+Position: 2021-05-12 01:37:00
+BUYING STOCK @ 4165.0
+ATR: 4.169
+Candle size: 1.9
+Stop loss: 4159.631 / Sell_marker: 4173.339
+Risk/Reward Ratio: 1.553
+SELLING STOCK @ 4155.3 - profit/loss: 0.9987108126213086
+
+Position: 2021-05-12 01:50:00
+BUYING STOCK @ 4168.6
+ATR: 4.055
+Candle size: 4.0
+Stop loss: 4160.545 / Sell_marker: 4176.71
+Risk/Reward Ratio: 1.007
+SELLING STOCK @ 4173.8 - profit/loss: 1.001945455583086
+
+Position: 2021-05-12 02:03:00
+BUYING STOCK @ 4169.0
+ATR: 4.224
+Candle size: 6.7
+Stop loss: 4162.876 / Sell_marker: 4177.449
+Risk/Reward Ratio: 1.38
+Moving SM: 4233.716
+SELLING STOCK @ 4229.9 - profit/loss: 1.0155231210309006
+
+Position: 2021-05-12 02:32:00
+BUYING STOCK @ 4218.174
+ATR: 7.654
+Candle size: 22.4
+Stop loss: 4209.446 / Sell_marker: 4233.483
+Risk/Reward Ratio: 1.754
+Moving SM: 4253.726
+SELLING STOCK @ 4250.471 - profit/loss: 1.0084281564148365
+
+Position: 2021-05-12 02:46:00
+BUYING STOCK @ 4244.2
+ATR: 8.963
+Candle size: 10.5
+Stop loss: 4235.237 / Sell_marker: 4262.126
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 4260.9 - profit/loss: 1.0042235567323545
+
+Position: 2021-05-12 03:03:00
+BUYING STOCK @ 4258.6
+ATR: 8.52
+Candle size: 7.6
+Stop loss: 4245.78 / Sell_marker: 4275.64
+Risk/Reward Ratio: 1.329
+SELLING STOCK @ 4270.0 - profit/loss: 1.004001305595318
+
+Position: 2021-05-12 03:16:00
+BUYING STOCK @ 4269.067
+ATR: 7.365
+Candle size: 7.2
+Stop loss: 4258.335 / Sell_marker: 4283.796
+Risk/Reward Ratio: 1.373
+SELLING STOCK @ 4254.9 - profit/loss: 0.9974862507176085
+
+Position: 2021-05-12 03:25:00
+BUYING STOCK @ 4259.8
+ATR: 6.515
+Candle size: 5.8
+Stop loss: 4249.585 / Sell_marker: 4272.83
+Risk/Reward Ratio: 1.276
+SELLING STOCK @ 4269.3 - profit/loss: 1.0030588442914945
+
+Position: 2021-05-12 03:32:00
+BUYING STOCK @ 4271.4
+ATR: 6.346
+Candle size: 4.9
+Stop loss: 4261.654 / Sell_marker: 4284.093
+Risk/Reward Ratio: 1.302
+SELLING STOCK @ 4284.0 - profit/loss: 1.0029716232851482
+
+Position: 2021-05-12 03:43:00
+BUYING STOCK @ 4288.6
+ATR: 5.863
+Candle size: 6.0
+Stop loss: 4278.137 / Sell_marker: 4300.325
+Risk/Reward Ratio: 1.121
+Moving SM: 4321.656
+SELLING STOCK @ 4316.8 - profit/loss: 1.0077078120142646
+
+Position: 2021-05-12 03:55:00
+BUYING STOCK @ 4350.1
+ATR: 8.957
+Candle size: 11.5
+Stop loss: 4332.643 / Sell_marker: 4368.014
+Risk/Reward Ratio: 1.026
+SELLING STOCK @ 4328.5 - profit/loss: 0.9959870106512098
+
+Position: 2021-05-12 04:02:00
+BUYING STOCK @ 4320.771
+ATR: 9.138
+Candle size: 9.7
+Stop loss: 4310.962 / Sell_marker: 4339.047
+Risk/Reward Ratio: 1.863
+SELLING STOCK @ 4310.1 - profit/loss: 0.9977298271749504
+
+Position: 2021-05-12 04:05:00
+BUYING STOCK @ 4306.4
+ATR: 8.876
+Candle size: 5.0
+Stop loss: 4296.224 / Sell_marker: 4324.153
+Risk/Reward Ratio: 1.745
+Moving SM: 4333.1
+SELLING STOCK @ 4325.4 - profit/loss: 1.0061999636856924
+
+Position: 2021-05-12 04:21:00
+BUYING STOCK @ 4329.7
+ATR: 10.004
+Candle size: 8.5
+Stop loss: 4313.396 / Sell_marker: 4349.708
+Risk/Reward Ratio: 1.227
+SELLING STOCK @ 4309.0 - profit/loss: 0.9962344130749836
+
+Position: 2021-05-12 04:27:00
+BUYING STOCK @ 4313.3
+ATR: 9.653
+Candle size: 6.4
+Stop loss: 4299.247 / Sell_marker: 4332.605
+Risk/Reward Ratio: 1.374
+SELLING STOCK @ 4290.8 - profit/loss: 0.9967420212973594
+
+Position: 2021-05-12 05:05:00
+BUYING STOCK @ 4306.1
+ATR: 6.082
+Candle size: 9.4
+Stop loss: 4298.218 / Sell_marker: 4318.265
+Risk/Reward Ratio: 1.543
+SELLING STOCK @ 4316.0 - profit/loss: 1.0028249545987962
+
+Position: 2021-05-12 05:14:00
+BUYING STOCK @ 4323.2
+ATR: 6.458
+Candle size: 5.8
+Stop loss: 4316.742 / Sell_marker: 4336.116
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 4313.0 - profit/loss: 0.9985062191321953
+
+Position: 2021-05-12 05:42:00
+BUYING STOCK @ 4316.8
+ATR: 5.739
+Candle size: 6.8
+Stop loss: 4306.361 / Sell_marker: 4328.278
+Risk/Reward Ratio: 1.1
+Moving SM: 4353.647
+SELLING STOCK @ 4353.1 - profit/loss: 1.0085356094723208
+
+Position: 2021-05-12 06:08:00
+BUYING STOCK @ 4342.507
+ATR: 7.398
+Candle size: 8.1
+Stop loss: 4332.902 / Sell_marker: 4357.303
+Risk/Reward Ratio: 1.541
+SELLING STOCK @ 4328.524 - profit/loss: 0.9977881520022663
+
+Position: 2021-05-12 06:14:00
+BUYING STOCK @ 4329.5
+ATR: 7.479
+Candle size: 6.7
+Stop loss: 4315.721 / Sell_marker: 4344.458
+Risk/Reward Ratio: 1.086
+SELLING STOCK @ 4312.9 - profit/loss: 0.9968174236292626
+
+Position: 2021-05-12 06:34:00
+BUYING STOCK @ 4321.9
+ATR: 6.835
+Candle size: 6.9
+Stop loss: 4311.365 / Sell_marker: 4335.57
+Risk/Reward Ratio: 1.298
+SELLING STOCK @ 4308.1 - profit/loss: 0.9975624621740565
+
+Position: 2021-05-12 06:44:00
+BUYING STOCK @ 4311.9
+ATR: 6.644
+Candle size: 9.389
+Stop loss: 4296.856 / Sell_marker: 4325.187
+Risk/Reward Ratio: 0.883
+SELLING STOCK @ 4291.2 - profit/loss: 0.9965111307987321
+
+Position: 2021-05-12 07:04:00
+BUYING STOCK @ 4317.9
+ATR: 6.291
+Candle size: 2.1
+Stop loss: 4309.709 / Sell_marker: 4330.482
+Risk/Reward Ratio: 1.536
+SELLING STOCK @ 4307.8 - profit/loss: 0.9981030459159974
+
+Position: 2021-05-12 07:16:00
+BUYING STOCK @ 4315.9
+ATR: 6.036
+Candle size: 2.9
+Stop loss: 4307.064 / Sell_marker: 4327.972
+Risk/Reward Ratio: 1.366
+SELLING STOCK @ 4321.3 - profit/loss: 1.002797121135212
+
+Position: 2021-05-12 07:22:00
+BUYING STOCK @ 4321.7
+ATR: 5.737
+Candle size: 3.0
+Stop loss: 4313.163 / Sell_marker: 4333.174
+Risk/Reward Ratio: 1.344
+SELLING STOCK @ 4312.0 - profit/loss: 0.9980246189434917
+
+Position: 2021-05-12 07:38:00
+BUYING STOCK @ 4315.782
+ATR: 4.676
+Candle size: 4.782
+Stop loss: 4306.324 / Sell_marker: 4325.135
+Risk/Reward Ratio: 0.989
+SELLING STOCK @ 4304.7 - profit/loss: 0.9978083748690604
+
+Position: 2021-05-12 08:03:00
+BUYING STOCK @ 4315.8
+ATR: 5.699
+Candle size: 6.6
+Stop loss: 4304.401 / Sell_marker: 4327.198
+Risk/Reward Ratio: 1.0
+SELLING STOCK @ 4300.1 - profit/loss: 0.9973587365054984
+
+Position: 2021-05-12 08:38:00
+BUYING STOCK @ 4290.5
+ATR: 7.781
+Candle size: 6.4
+Stop loss: 4278.619 / Sell_marker: 4306.062
+Risk/Reward Ratio: 1.31
+SELLING STOCK @ 4275.0 - profit/loss: 0.9972308776428085
+
+Position: 2021-05-12 08:50:00
+BUYING STOCK @ 4295.5
+ATR: 7.201
+Candle size: 5.2
+Stop loss: 4283.599 / Sell_marker: 4309.902
+Risk/Reward Ratio: 1.21
+SELLING STOCK @ 4309.1 - profit/loss: 1.0033528164926446
+
+Position: 2021-05-12 09:03:00
+BUYING STOCK @ 4302.135
+ATR: 6.592
+Candle size: 10.765
+Stop loss: 4295.543 / Sell_marker: 4315.32
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 4293.0 - profit/loss: 0.9984676556233781
+
+Position: 2021-05-12 09:23:00
+BUYING STOCK @ 4300.9
+ATR: 4.679
+Candle size: 6.8
+Stop loss: 4289.421 / Sell_marker: 4310.258
+Risk/Reward Ratio: 0.815
+SELLING STOCK @ 4310.1 - profit/loss: 1.0021758872158273
+
+Position: 2021-05-12 09:50:00
+BUYING STOCK @ 4305.1
+ATR: 4.625
+Candle size: 6.1
+Stop loss: 4300.475 / Sell_marker: 4314.351
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 4296.1 - profit/loss: 0.9989256000856391
+
+Position: 2021-05-12 10:22:00
+BUYING STOCK @ 4288.7
+ATR: 7.672
+Candle size: 10.0
+Stop loss: 4272.428 / Sell_marker: 4304.045
+Risk/Reward Ratio: 0.943
+SELLING STOCK @ 4272.2 - profit/loss: 0.9962057640028661
+
+Position: 2021-05-12 11:06:00
+BUYING STOCK @ 4253.9
+ATR: 7.271
+Candle size: 4.777
+Stop loss: 4241.852 / Sell_marker: 4268.442
+Risk/Reward Ratio: 1.207
+Moving SM: 4270.316
+SELLING STOCK @ 4269.7 - profit/loss: 1.00385899512571
+
+Position: 2021-05-12 11:24:00
+BUYING STOCK @ 4267.0
+ATR: 6.296
+Candle size: 2.1
+Stop loss: 4260.704 / Sell_marker: 4279.593
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 4259.9 - profit/loss: 0.9985243890843677
+
+Position: 2021-05-12 11:26:00
+BUYING STOCK @ 4260.7
+ATR: 6.38
+Candle size: 3.9
+Stop loss: 4250.92 / Sell_marker: 4273.459
+Risk/Reward Ratio: 1.305
+SELLING STOCK @ 4249.5 - profit/loss: 0.9977046856908487
+
+Position: 2021-05-12 11:34:00
+BUYING STOCK @ 4245.9
+ATR: 6.15
+Candle size: 7.4
+Stop loss: 4233.95 / Sell_marker: 4258.2
+Risk/Reward Ratio: 1.029
+SELLING STOCK @ 4255.2 - profit/loss: 1.0028970013458214
+
+Position: 2021-05-12 11:43:00
+BUYING STOCK @ 4259.9
+ATR: 5.378
+Candle size: 4.8
+Stop loss: 4249.722 / Sell_marker: 4270.657
+Risk/Reward Ratio: 1.057
+SELLING STOCK @ 4269.5 - profit/loss: 1.0025251207222976
+
+Position: 2021-05-12 11:50:00
+BUYING STOCK @ 4262.2
+ATR: 4.787
+Candle size: 7.3
+Stop loss: 4257.413 / Sell_marker: 4271.773
+Risk/Reward Ratio: 2.0
+Moving SM: 4273.427
+SELLING STOCK @ 4272.1 - profit/loss: 1.002634191070951
+
+Position: 2021-05-12 11:56:00
+BUYING STOCK @ 4282.9
+ATR: 5.335
+Candle size: 8.0
+Stop loss: 4269.565 / Sell_marker: 4293.57
+Risk/Reward Ratio: 0.8
+SELLING STOCK @ 4262.2 - profit/loss: 0.9968864822386572
+
+Position: 2021-05-12 12:04:00
+BUYING STOCK @ 4262.2
+ATR: 5.464
+Candle size: 5.1
+Stop loss: 4252.636 / Sell_marker: 4273.128
+Risk/Reward Ratio: 1.143
+SELLING STOCK @ 4271.333 - profit/loss: 1.0025639473773156
+
+Position: 2021-05-12 12:12:00
+BUYING STOCK @ 4275.0
+ATR: 6.207
+Candle size: 6.1
+Stop loss: 4265.593 / Sell_marker: 4287.414
+Risk/Reward Ratio: 1.32
+SELLING STOCK @ 4281.9 - profit/loss: 1.00290376072313
+
+Position: 2021-05-12 12:31:00
+BUYING STOCK @ 4279.1
+ATR: 6.868
+Candle size: 6.6
+Stop loss: 4271.432 / Sell_marker: 4292.836
+Risk/Reward Ratio: 1.791
+SELLING STOCK @ 4271.37 - profit/loss: 0.9982080650987695
+
+Position: 2021-05-12 12:38:00
+BUYING STOCK @ 4273.3
+ATR: 7.15
+Candle size: 10.3
+Stop loss: 4255.85 / Sell_marker: 4287.6
+Risk/Reward Ratio: 0.819
+Moving SM: 4303.359
+SELLING STOCK @ 4301.1 - profit/loss: 1.007034044144256
+
+Position: 2021-05-12 12:51:00
+BUYING STOCK @ 4293.1
+ATR: 7.622
+Candle size: 8.455
+Stop loss: 4285.478 / Sell_marker: 4308.343
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 4282.2 - profit/loss: 0.9982246684687218
+
+Position: 2021-05-12 13:51:00
+BUYING STOCK @ 4305.4
+ATR: 7.445
+Candle size: 10.3
+Stop loss: 4287.655 / Sell_marker: 4320.289
+Risk/Reward Ratio: 0.839
+Moving SM: 4351.26
+SELLING STOCK @ 4345.1 - profit/loss: 1.010651671862634
+
+Position: 2021-05-12 14:30:00
+BUYING STOCK @ 4359.1
+ATR: 9.279
+Candle size: 16.8
+Stop loss: 4334.821 / Sell_marker: 4377.659
+Risk/Reward Ratio: 0.764
+SELLING STOCK @ 4328.9 - profit/loss: 0.9944301734304006
+
+Position: 2021-05-12 14:51:00
+BUYING STOCK @ 4315.5
+ATR: 8.565
+Candle size: 10.316
+Stop loss: 4297.019 / Sell_marker: 4332.629
+Risk/Reward Ratio: 0.927
+SELLING STOCK @ 4295.7 - profit/loss: 0.9957176330892772
+
+Position: 2021-05-12 15:56:00
+BUYING STOCK @ 4211.0
+ATR: 12.298
+Candle size: 7.9
+Stop loss: 4190.802 / Sell_marker: 4235.596
+Risk/Reward Ratio: 1.218
+SELLING STOCK @ 4187.9 - profit/loss: 0.9952034827121482
+
+Position: 2021-05-12 16:53:00
+BUYING STOCK @ 4127.0
+ATR: 15.804
+Candle size: 9.9
+Stop loss: 4101.296 / Sell_marker: 4158.608
+Risk/Reward Ratio: 1.23
+Moving SM: 4184.004
+SELLING STOCK @ 4177.6 - profit/loss: 1.0138124718854953
+
+Position: 2021-05-12 17:13:00
+BUYING STOCK @ 4171.1
+ATR: 11.003
+Candle size: 10.5
+Stop loss: 4160.097 / Sell_marker: 4193.106
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 4142.2 - profit/loss: 0.9973620961956996
+
+Position: 2021-05-12 17:25:00
+BUYING STOCK @ 4136.771
+ATR: 12.957
+Candle size: 9.871
+Stop loss: 4113.943 / Sell_marker: 4162.685
+Risk/Reward Ratio: 1.135
+Moving SM: 4169.072
+SELLING STOCK @ 4164.0 - profit/loss: 1.0078083013672834
+
+Position: 2021-05-12 17:40:00
+BUYING STOCK @ 4163.1
+ATR: 11.017
+Candle size: 8.7
+Stop loss: 4147.083 / Sell_marker: 4185.133
+Risk/Reward Ratio: 1.376
+SELLING STOCK @ 4140.1 - profit/loss: 0.9961527313666211
+
+Position: 2021-05-12 17:55:00
+BUYING STOCK @ 4156.589
+ATR: 10.143
+Candle size: 16.416
+Stop loss: 4130.842 / Sell_marker: 4176.874
+Risk/Reward Ratio: 0.788
+SELLING STOCK @ 4120.7 - profit/loss: 0.9938056195932994
+
+Position: 2021-05-12 19:22:00
+BUYING STOCK @ 4006.4
+ATR: 16.956
+Candle size: 14.1
+Stop loss: 3977.644 / Sell_marker: 4040.313
+Risk/Reward Ratio: 1.179
+Moving SM: 4056.399
+SELLING STOCK @ 4049.8 - profit/loss: 1.0124798219942632
+
+Position: 2021-05-12 19:50:00
+BUYING STOCK @ 4047.2
+ATR: 13.11
+Candle size: 8.0
+Stop loss: 4028.19 / Sell_marker: 4073.421
+Risk/Reward Ratio: 1.379
+Moving SM: 4097.323
+SELLING STOCK @ 4093.2 - profit/loss: 1.0123845615422635
+
+Position: 2021-05-12 20:05:00
+BUYING STOCK @ 4083.1
+ATR: 11.671
+Candle size: 10.1
+Stop loss: 4071.429 / Sell_marker: 4106.442
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 4061.355 - profit/loss: 0.9971415852631518
+
+Position: 2021-05-12 20:16:00
+BUYING STOCK @ 4058.1
+ATR: 11.045
+Candle size: 5.8
+Stop loss: 4045.055 / Sell_marker: 4080.191
+Risk/Reward Ratio: 1.693
+SELLING STOCK @ 4042.514 - profit/loss: 0.9967853514083874
+
+Position: 2021-05-12 20:20:00
+BUYING STOCK @ 4040.9
+ATR: 10.133
+Candle size: 4.714
+Stop loss: 4027.667 / Sell_marker: 4061.165
+Risk/Reward Ratio: 1.531
+Moving SM: 4067.555
+SELLING STOCK @ 4064.426 - profit/loss: 1.0065963201370445
+
+Position: 2021-05-12 20:30:00
+BUYING STOCK @ 4060.6
+ATR: 11.587
+Candle size: 25.755
+Stop loss: 4023.258 / Sell_marker: 4083.775
+Risk/Reward Ratio: 0.621
+SELLING STOCK @ 4080.2 - profit/loss: 1.0057071931229924
+
+Position: 2021-05-12 20:37:00
+BUYING STOCK @ 4087.0
+ATR: 12.888
+Candle size: 13.1
+Stop loss: 4063.512 / Sell_marker: 4112.776
+Risk/Reward Ratio: 1.097
+Moving SM: 4129.546
+SELLING STOCK @ 4121.0 - profit/loss: 1.0104100379478813
+
+Position: 2021-05-12 21:26:00
+BUYING STOCK @ 4133.5
+ATR: 8.49
+Candle size: 14.5
+Stop loss: 4111.71 / Sell_marker: 4150.48
+Risk/Reward Ratio: 0.779
+SELLING STOCK @ 4101.172 - profit/loss: 0.9947284113488457
+
+Position: 2021-05-12 21:57:00
+BUYING STOCK @ 4116.0
+ATR: 9.276
+Candle size: 6.7
+Stop loss: 4101.324 / Sell_marker: 4134.552
+Risk/Reward Ratio: 1.264
+SELLING STOCK @ 4110.1 - profit/loss: 1.0045071747622012
+
+Position: 2021-05-12 22:30:00
+BUYING STOCK @ 4085.2
+ATR: 23.502
+Candle size: 19.2
+Stop loss: 4047.598 / Sell_marker: 4132.203
+Risk/Reward Ratio: 1.25
+SELLING STOCK @ 4039.5 - profit/loss: 0.9907956398733043
+
+Position: 2021-05-12 22:43:00
+BUYING STOCK @ 4071.375
+ATR: 23.009
+Candle size: 24.149
+Stop loss: 4032.791 / Sell_marker: 4117.393
+Risk/Reward Ratio: 1.193
+Moving SM: 4226.416
+SELLING STOCK @ 4225.691 - profit/loss: 1.0380808615897426
+
+Position: 2021-05-12 23:01:00
+BUYING STOCK @ 4191.6
+ATR: 24.432
+Candle size: 49.1
+Stop loss: 4161.468 / Sell_marker: 4240.464
+Risk/Reward Ratio: 1.622
+SELLING STOCK @ 4152.3 - profit/loss: 0.992811306255638
+
+Position: 2021-05-12 23:05:00
+BUYING STOCK @ 4164.785
+ATR: 23.336
+Candle size: 22.6
+Stop loss: 4120.064 / Sell_marker: 4211.457
+Risk/Reward Ratio: 1.044
+SELLING STOCK @ 4108.2 - profit/loss: 0.9892621117459959
+
+Position: 2021-05-12 23:22:00
+BUYING STOCK @ 4096.5
+ATR: 20.962
+Candle size: 16.9
+Stop loss: 4062.938 / Sell_marker: 4138.423
+Risk/Reward Ratio: 1.249
+SELLING STOCK @ 4056.6 - profit/loss: 0.9918072500167205
+
+Position: 2021-05-13 00:25:00
+BUYING STOCK @ 3881.5
+ATR: 48.361
+Candle size: 45.181
+Stop loss: 3794.758 / Sell_marker: 3978.222
+Risk/Reward Ratio: 1.115
+SELLING STOCK @ 3976.1 - profit/loss: 1.0249186444250575
+
+Position: 2021-05-13 01:30:00
+BUYING STOCK @ 3957.598
+ATR: 14.423
+Candle size: 33.302
+Stop loss: 3943.175 / Sell_marker: 3986.443
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 3931.665 - profit/loss: 0.9963556631515231
+
+Position: 2021-05-13 01:48:00
+BUYING STOCK @ 3965.7
+ATR: 12.827
+Candle size: 8.4
+Stop loss: 3945.873 / Sell_marker: 3991.354
+Risk/Reward Ratio: 1.294
+SELLING STOCK @ 3989.2 - profit/loss: 1.0064690373597767
+
+Position: 2021-05-13 02:03:00
+BUYING STOCK @ 4016.0
+ATR: 13.076
+Candle size: 35.6
+Stop loss: 3977.124 / Sell_marker: 4042.153
+Risk/Reward Ratio: 0.673
+SELLING STOCK @ 3974.3 - profit/loss: 0.9903196413534034
+
+Position: 2021-05-13 02:36:00
+BUYING STOCK @ 3980.1
+ATR: 12.884
+Candle size: 13.9
+Stop loss: 3955.116 / Sell_marker: 4005.868
+Risk/Reward Ratio: 1.031
+Moving SM: 4008.252
+SELLING STOCK @ 4006.8 - profit/loss: 1.0070732901957584
+
+Position: 2021-05-13 02:50:00
+BUYING STOCK @ 4009.9
+ATR: 11.674
+Candle size: 12.7
+Stop loss: 3991.226 / Sell_marker: 4033.248
+Risk/Reward Ratio: 1.25
+SELLING STOCK @ 3989.3 - profit/loss: 0.9953430141238464
+
+Position: 2021-05-13 02:59:00
+BUYING STOCK @ 3989.1
+ATR: 10.127
+Candle size: 2.8
+Stop loss: 3977.673 / Sell_marker: 4009.354
+Risk/Reward Ratio: 1.772
+SELLING STOCK @ 3966.4 - profit/loss: 0.997135433455998
+
+Position: 2021-05-13 03:53:00
+BUYING STOCK @ 3921.6
+ATR: 14.213
+Candle size: 8.4
+Stop loss: 3899.387 / Sell_marker: 3950.026
+Risk/Reward Ratio: 1.28
+Moving SM: 3972.091
+SELLING STOCK @ 3967.1 - profit/loss: 1.012875007614517
+
+Position: 2021-05-13 04:08:00
+BUYING STOCK @ 3964.1
+ATR: 12.953
+Candle size: 11.037
+Stop loss: 3943.111 / Sell_marker: 3990.005
+Risk/Reward Ratio: 1.234
+SELLING STOCK @ 3941.1 - profit/loss: 0.9947051089748672
+
+Position: 2021-05-13 04:19:00
+BUYING STOCK @ 3947.0
+ATR: 11.224
+Candle size: 7.7
+Stop loss: 3932.276 / Sell_marker: 3969.449
+Risk/Reward Ratio: 1.525
+SELLING STOCK @ 3926.344 - profit/loss: 0.9962694574649609
+
+Position: 2021-05-13 04:39:00
+BUYING STOCK @ 3930.6
+ATR: 10.285
+Candle size: 11.7
+Stop loss: 3913.215 / Sell_marker: 3951.171
+Risk/Reward Ratio: 1.183
+SELLING STOCK @ 3905.3 - profit/loss: 0.9955769028354141
+
+Position: 2021-05-13 05:11:00
+BUYING STOCK @ 3944.6
+ATR: 10.019
+Candle size: 8.8
+Stop loss: 3932.381 / Sell_marker: 3964.637
+Risk/Reward Ratio: 1.64
+SELLING STOCK @ 3960.9 - profit/loss: 1.0050796846509018
+
+Position: 2021-05-13 05:30:00
+BUYING STOCK @ 3985.6
+ATR: 10.489
+Candle size: 21.3
+Stop loss: 3973.411 / Sell_marker: 4006.577
+Risk/Reward Ratio: 1.721
+SELLING STOCK @ 4002.672 - profit/loss: 1.0052632278276024
+
+Position: 2021-05-13 05:50:00
+BUYING STOCK @ 3995.1
+ATR: 9.087
+Candle size: 12.0
+Stop loss: 3983.613 / Sell_marker: 4013.274
+Risk/Reward Ratio: 1.582
+SELLING STOCK @ 4007.3 - profit/loss: 1.0045491682194125
+
+Position: 2021-05-13 06:07:00
+BUYING STOCK @ 4006.6
+ATR: 9.092
+Candle size: 4.387
+Stop loss: 3994.121 / Sell_marker: 4024.785
+Risk/Reward Ratio: 1.457
+SELLING STOCK @ 3988.2 - profit/loss: 0.9968853215442743
+
+Position: 2021-05-13 06:44:00
+BUYING STOCK @ 3997.243
+ATR: 7.428
+Candle size: 7.817
+Stop loss: 3982.272 / Sell_marker: 4012.1
+Risk/Reward Ratio: 0.992
+Moving SM: 4015.623
+SELLING STOCK @ 4015.442 - profit/loss: 1.0045982004981329
+
+Position: 2021-05-13 06:57:00
+BUYING STOCK @ 4010.5
+ATR: 7.595
+Candle size: 7.177
+Stop loss: 4002.828 / Sell_marker: 4025.69
+Risk/Reward Ratio: 1.98
+SELLING STOCK @ 3998.5 - profit/loss: 0.9980869604543146
+
+Position: 2021-05-13 07:11:00
+BUYING STOCK @ 4001.6
+ATR: 6.874
+Candle size: 5.5
+Stop loss: 3991.126 / Sell_marker: 4015.348
+Risk/Reward Ratio: 1.313
+SELLING STOCK @ 3990.4 - profit/loss: 0.9973825176326617
+
+Position: 2021-05-13 08:02:00
+BUYING STOCK @ 3982.7
+ATR: 6.889
+Candle size: 6.5
+Stop loss: 3971.311 / Sell_marker: 3996.478
+Risk/Reward Ratio: 1.21
+SELLING STOCK @ 3971.3 - profit/loss: 0.9971403772839242
+
+Position: 2021-05-13 08:40:00
+BUYING STOCK @ 3918.9
+ATR: 9.997
+Candle size: 3.7
+Stop loss: 3907.003 / Sell_marker: 3938.894
+Risk/Reward Ratio: 1.681
+SELLING STOCK @ 3901.4 - profit/loss: 0.9969641403971912
+
+Position: 2021-05-13 10:05:00
+BUYING STOCK @ 3779.7
+ATR: 22.491
+Candle size: 21.8
+Stop loss: 3735.509 / Sell_marker: 3824.681
+Risk/Reward Ratio: 1.018
+SELLING STOCK @ 3713.7 - profit/loss: 0.9883084163337335
+
+Position: 2021-05-13 11:15:00
+BUYING STOCK @ 3692.723
+ATR: 22.487
+Candle size: 31.2
+Stop loss: 3641.313 / Sell_marker: 3737.698
+Risk/Reward Ratio: 0.875
+Moving SM: 3748.818
+SELLING STOCK @ 3739.9 - profit/loss: 1.015190826305503
+
+Position: 2021-05-13 11:35:00
+BUYING STOCK @ 3726.1
+ATR: 16.727
+Candle size: 24.6
+Stop loss: 3700.073 / Sell_marker: 3759.553
+Risk/Reward Ratio: 1.285
+SELLING STOCK @ 3745.573 - profit/loss: 1.0089780483622457
+
+Position: 2021-05-13 11:52:00
+BUYING STOCK @ 3740.3
+ATR: 14.852
+Candle size: 13.5
+Stop loss: 3722.748 / Sell_marker: 3770.004
+Risk/Reward Ratio: 1.692
+SELLING STOCK @ 3720.1 - profit/loss: 0.9953073329171886
+
+Position: 2021-05-13 12:05:00
+BUYING STOCK @ 3715.8
+ATR: 13.507
+Candle size: 13.353
+Stop loss: 3693.093 / Sell_marker: 3742.815
+Risk/Reward Ratio: 1.19
+Moving SM: 3822.011
+SELLING STOCK @ 3813.5 - profit/loss: 1.0285834910989806
+
+Position: 2021-05-13 12:32:00
+BUYING STOCK @ 3815.9
+ATR: 12.107
+Candle size: 3.788
+Stop loss: 3800.006 / Sell_marker: 3840.113
+Risk/Reward Ratio: 1.523
+SELLING STOCK @ 3796.1 - profit/loss: 0.9958346713653186
+
+Position: 2021-05-13 12:34:00
+BUYING STOCK @ 3811.6
+ATR: 12.852
+Candle size: 15.5
+Stop loss: 3783.248 / Sell_marker: 3837.304
+Risk/Reward Ratio: 0.907
+SELLING STOCK @ 3773.399 - profit/loss: 0.9925616484728198
+
+Position: 2021-05-13 12:40:00
+BUYING STOCK @ 3769.7
+ATR: 14.227
+Candle size: 14.7
+Stop loss: 3742.973 / Sell_marker: 3798.154
+Risk/Reward Ratio: 1.065
+SELLING STOCK @ 3788.797 - profit/loss: 1.007548089982692
+
+Position: 2021-05-13 12:50:00
+BUYING STOCK @ 3799.3
+ATR: 14.762
+Candle size: 20.9
+Stop loss: 3764.338 / Sell_marker: 3828.823
+Risk/Reward Ratio: 0.844
+Moving SM: 3838.847
+SELLING STOCK @ 3836.1 - profit/loss: 1.010409097011263
+
+Position: 2021-05-13 13:10:00
+BUYING STOCK @ 3833.1
+ATR: 11.468
+Candle size: 11.4
+Stop loss: 3819.632 / Sell_marker: 3856.037
+Risk/Reward Ratio: 1.703
+SELLING STOCK @ 3805.1 - profit/loss: 0.9964862976720971
+
+Position: 2021-05-13 13:17:00
+BUYING STOCK @ 3806.1
+ATR: 11.089
+Candle size: 8.6
+Stop loss: 3790.211 / Sell_marker: 3828.278
+Risk/Reward Ratio: 1.396
+SELLING STOCK @ 3782.2 - profit/loss: 0.9958253216132283
+
+Position: 2021-05-13 13:34:00
+BUYING STOCK @ 3816.9
+ATR: 12.177
+Candle size: 9.873
+Stop loss: 3800.923 / Sell_marker: 3841.254
+Risk/Reward Ratio: 1.524
+Moving SM: 3841.965
+SELLING STOCK @ 3841.3 - profit/loss: 1.0065668480700023
+
+Position: 2021-05-13 13:41:00
+BUYING STOCK @ 3831.1
+ATR: 11.967
+Candle size: 12.197
+Stop loss: 3819.133 / Sell_marker: 3855.034
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 3841.4 - profit/loss: 1.0062473585873581
+
+Position: 2021-05-13 13:50:00
+BUYING STOCK @ 3842.1
+ATR: 12.035
+Candle size: 5.8
+Stop loss: 3830.065 / Sell_marker: 3866.169
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 3860.1 - profit/loss: 1.0062646177264472
+
+Position: 2021-05-13 14:02:00
+BUYING STOCK @ 3855.9
+ATR: 11.099
+Candle size: 13.0
+Stop loss: 3835.001 / Sell_marker: 3878.099
+Risk/Reward Ratio: 1.062
+Moving SM: 3889.875
+SELLING STOCK @ 3883.5 - profit/loss: 1.0088112756965504
+
+Position: 2021-05-13 14:14:00
+BUYING STOCK @ 3891.837
+ATR: 11.531
+Candle size: 15.316
+Stop loss: 3869.969 / Sell_marker: 3914.9
+Risk/Reward Ratio: 1.055
+SELLING STOCK @ 3869.316 - profit/loss: 0.9943809517392787
+
+Position: 2021-05-13 14:31:00
+BUYING STOCK @ 3873.1
+ATR: 10.886
+Candle size: 9.3
+Stop loss: 3856.814 / Sell_marker: 3894.873
+Risk/Reward Ratio: 1.337
+SELLING STOCK @ 3856.8 - profit/loss: 0.9957949821787214
+
+Position: 2021-05-13 14:45:00
+BUYING STOCK @ 3864.5
+ATR: 10.759
+Candle size: 11.2
+Stop loss: 3842.541 / Sell_marker: 3886.017
+Risk/Reward Ratio: 0.98
+SELLING STOCK @ 3828.1 - profit/loss: 0.9943178572039373
+
+Position: 2021-05-13 16:08:00
+BUYING STOCK @ 3811.9
+ATR: 15.752
+Candle size: 19.5
+Stop loss: 3795.948 / Sell_marker: 3843.404
+Risk/Reward Ratio: 1.975
+Moving SM: 3863.85
+SELLING STOCK @ 3862.1 - profit/loss: 1.0136284292355497
+
+Position: 2021-05-13 16:26:00
+BUYING STOCK @ 3847.1
+ATR: 12.017
+Candle size: 2.0
+Stop loss: 3835.083 / Sell_marker: 3871.133
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 3826.7 - profit/loss: 0.9968764376812801
+
+Position: 2021-05-13 17:44:00
+BUYING STOCK @ 3641.998
+ATR: 24.877
+Candle size: 29.529
+Stop loss: 3591.493 / Sell_marker: 3691.753
+Risk/Reward Ratio: 0.985
+SELLING STOCK @ 3682.684 - profit/loss: 1.0136612896279338
+
+Position: 2021-05-13 18:01:00
+BUYING STOCK @ 3705.809
+ATR: 18.153
+Candle size: 34.2
+Stop loss: 3654.447 / Sell_marker: 3742.115
+Risk/Reward Ratio: 0.707
+SELLING STOCK @ 3650.7 - profit/loss: 0.9861402066626983
+
+Position: 2021-05-13 18:30:00
+BUYING STOCK @ 3676.1
+ATR: 14.801
+Candle size: 20.2
+Stop loss: 3648.099 / Sell_marker: 3705.702
+Risk/Reward Ratio: 1.057
+SELLING STOCK @ 3638.1 - profit/loss: 0.9923829996452351
+
+Position: 2021-05-13 19:19:00
+BUYING STOCK @ 3669.9
+ATR: 16.885
+Candle size: 8.1
+Stop loss: 3647.215 / Sell_marker: 3703.67
+Risk/Reward Ratio: 1.489
+SELLING STOCK @ 3642.7 - profit/loss: 0.9938186663327307
+
+Position: 2021-05-13 19:22:00
+BUYING STOCK @ 3663.9
+ATR: 17.218
+Candle size: 23.8
+Stop loss: 3622.882 / Sell_marker: 3698.335
+Risk/Reward Ratio: 0.84
+Moving SM: 3710.734
+SELLING STOCK @ 3703.9 - profit/loss: 1.0127826341338564
+
+Position: 2021-05-13 19:41:00
+BUYING STOCK @ 3704.5
+ATR: 14.164
+Candle size: 18.8
+Stop loss: 3676.936 / Sell_marker: 3732.827
+Risk/Reward Ratio: 1.028
+SELLING STOCK @ 3674.2 - profit/loss: 0.9925593949141257
+
+Position: 2021-05-13 20:00:00
+BUYING STOCK @ 3666.9
+ATR: 12.001
+Candle size: 19.0
+Stop loss: 3635.899 / Sell_marker: 3690.902
+Risk/Reward Ratio: 0.774
+SELLING STOCK @ 3631.5 - profit/loss: 0.9915457056218699
+
+Position: 2021-05-13 20:12:00
+BUYING STOCK @ 3682.0
+ATR: 14.486
+Candle size: 2.1
+Stop loss: 3666.314 / Sell_marker: 3710.973
+Risk/Reward Ratio: 1.847
+SELLING STOCK @ 3699.2 - profit/loss: 1.0078687013577983
+
+Position: 2021-05-13 20:21:00
+BUYING STOCK @ 3689.1
+ATR: 12.89
+Candle size: 15.8
+Stop loss: 3676.21 / Sell_marker: 3714.879
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 3707.1 - profit/loss: 1.006987956610873
+
+Position: 2021-05-13 20:48:00
+BUYING STOCK @ 3706.9
+ATR: 12.671
+Candle size: 6.2
+Stop loss: 3689.529 / Sell_marker: 3732.242
+Risk/Reward Ratio: 1.459
+Moving SM: 3773.206
+SELLING STOCK @ 3761.9 - profit/loss: 1.017887078796909
+
+Position: 2021-05-13 21:23:00
+BUYING STOCK @ 3776.9
+ATR: 10.096
+Candle size: 1.9
+Stop loss: 3765.104 / Sell_marker: 3797.092
+Risk/Reward Ratio: 1.712
+SELLING STOCK @ 3763.186 - profit/loss: 0.996876776879287
+
+Position: 2021-05-13 21:32:00
+BUYING STOCK @ 3755.1
+ATR: 7.888
+Candle size: 8.0
+Stop loss: 3747.212 / Sell_marker: 3770.876
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 3745.1 - profit/loss: 0.997899438887899
+
+Position: 2021-05-13 21:41:00
+BUYING STOCK @ 3738.9
+ATR: 6.186
+Candle size: 7.0
+Stop loss: 3725.914 / Sell_marker: 3751.271
+Risk/Reward Ratio: 0.953
+SELLING STOCK @ 3748.1 - profit/loss: 1.0033087760170083
+
+Position: 2021-05-13 21:51:00
+BUYING STOCK @ 3751.9
+ATR: 8.249
+Candle size: 10.0
+Stop loss: 3733.651 / Sell_marker: 3768.398
+Risk/Reward Ratio: 0.904
+SELLING STOCK @ 3726.6 - profit/loss: 0.995136047400144
+
+Position: 2021-05-13 22:32:00
+BUYING STOCK @ 3747.4
+ATR: 10.521
+Candle size: 7.7
+Stop loss: 3730.579 / Sell_marker: 3768.442
+Risk/Reward Ratio: 1.251
+SELLING STOCK @ 3768.1 - profit/loss: 1.005615023717405
+
+Position: 2021-05-13 22:44:00
+BUYING STOCK @ 3760.8
+ATR: 9.41
+Candle size: 8.8
+Stop loss: 3749.69 / Sell_marker: 3779.619
+Risk/Reward Ratio: 1.694
+SELLING STOCK @ 3737.2 - profit/loss: 0.9970459365030271
+
+Position: 2021-05-13 23:17:00
+BUYING STOCK @ 3677.252
+ATR: 13.999
+Candle size: 6.8
+Stop loss: 3657.101 / Sell_marker: 3705.249
+Risk/Reward Ratio: 1.389
+SELLING STOCK @ 3655.786 - profit/loss: 0.9945202782950726
+
+Position: 2021-05-13 23:26:00
+BUYING STOCK @ 3656.8
+ATR: 15.41
+Candle size: 21.0
+Stop loss: 3620.49 / Sell_marker: 3687.621
+Risk/Reward Ratio: 0.849
+Moving SM: 3728.002
+SELLING STOCK @ 3726.362 - profit/loss: 1.019471113267668
+
+Position: 2021-05-13 23:58:00
+BUYING STOCK @ 3719.2
+ATR: 10.78
+Candle size: 11.2
+Stop loss: 3702.52 / Sell_marker: 3740.761
+Risk/Reward Ratio: 1.293
+Moving SM: 3792.269
+SELLING STOCK @ 3792.1 - profit/loss: 1.0196465312678704
+
+Position: 2021-05-14 00:11:00
+BUYING STOCK @ 3785.9
+ATR: 14.954
+Candle size: 21.993
+Stop loss: 3757.253 / Sell_marker: 3815.809
+Risk/Reward Ratio: 1.044
+Moving SM: 3821.934
+SELLING STOCK @ 3820.5 - profit/loss: 1.0095179141344945
+
+Position: 2021-05-14 01:01:00
+BUYING STOCK @ 3814.1
+ATR: 10.842
+Candle size: 18.2
+Stop loss: 3801.258 / Sell_marker: 3835.784
+Risk/Reward Ratio: 1.689
+Moving SM: 3888.007
+SELLING STOCK @ 3884.6 - profit/loss: 1.0193772489417918
+
+Position: 2021-05-14 01:25:00
+BUYING STOCK @ 3874.2
+ATR: 10.337
+Candle size: 6.8
+Stop loss: 3862.763 / Sell_marker: 3894.874
+Risk/Reward Ratio: 1.808
+SELLING STOCK @ 3859.111 - profit/loss: 0.9970479032385463
+
+Position: 2021-05-14 01:27:00
+BUYING STOCK @ 3872.1
+ATR: 11.155
+Candle size: 16.1
+Stop loss: 3849.645 / Sell_marker: 3894.411
+Risk/Reward Ratio: 0.994
+SELLING STOCK @ 3848.909 - profit/loss: 0.9942007264934114
+
+Position: 2021-05-14 01:33:00
+BUYING STOCK @ 3844.9
+ATR: 10.105
+Candle size: 7.1
+Stop loss: 3834.795 / Sell_marker: 3865.111
+Risk/Reward Ratio: 2.0
+Moving SM: 3881.322
+SELLING STOCK @ 3881.169 - profit/loss: 1.0094728886905595
+
+Position: 2021-05-14 01:49:00
+BUYING STOCK @ 3878.2
+ATR: 7.342
+Candle size: 4.0
+Stop loss: 3869.758 / Sell_marker: 3892.884
+Risk/Reward Ratio: 1.739
+SELLING STOCK @ 3868.1 - profit/loss: 0.9978232376349776
+
+Position: 2021-05-14 01:51:00
+BUYING STOCK @ 3862.2
+ATR: 7.599
+Candle size: 8.4
+Stop loss: 3853.501 / Sell_marker: 3877.399
+Risk/Reward Ratio: 1.747
+SELLING STOCK @ 3853.1 - profit/loss: 0.9977475632639408
+
+Position: 2021-05-14 02:38:00
+BUYING STOCK @ 3830.7
+ATR: 10.296
+Candle size: 21.0
+Stop loss: 3809.404 / Sell_marker: 3851.292
+Risk/Reward Ratio: 0.967
+SELLING STOCK @ 3798.1 - profit/loss: 0.9944406681675768
+
+Position: 2021-05-14 03:13:00
+BUYING STOCK @ 3810.9
+ATR: 8.891
+Candle size: 7.6
+Stop loss: 3794.409 / Sell_marker: 3828.682
+Risk/Reward Ratio: 1.078
+SELLING STOCK @ 3826.1 - profit/loss: 1.0046661456319803
+
+Position: 2021-05-14 03:30:00
+BUYING STOCK @ 3816.767
+ATR: 8.418
+Candle size: 9.484
+Stop loss: 3806.799 / Sell_marker: 3833.602
+Risk/Reward Ratio: 1.689
+SELLING STOCK @ 3798.984 - profit/loss: 0.9973881746854797
+
+Position: 2021-05-14 04:09:00
+BUYING STOCK @ 3814.1
+ATR: 7.176
+Candle size: 3.3
+Stop loss: 3806.924 / Sell_marker: 3828.453
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 3801.0 - profit/loss: 0.9981184468334827
+
+Position: 2021-05-14 04:50:00
+BUYING STOCK @ 3807.1
+ATR: 9.074
+Candle size: 15.8
+Stop loss: 3786.026 / Sell_marker: 3825.248
+Risk/Reward Ratio: 0.861
+SELLING STOCK @ 3785.8 - profit/loss: 0.9944646062188867
+
+Position: 2021-05-14 05:02:00
+BUYING STOCK @ 3800.9
+ATR: 8.589
+Candle size: 4.9
+Stop loss: 3787.511 / Sell_marker: 3818.077
+Risk/Reward Ratio: 1.283
+SELLING STOCK @ 3784.1 - profit/loss: 0.9964774941853071
+
+Position: 2021-05-14 05:06:00
+BUYING STOCK @ 3791.7
+ATR: 8.758
+Candle size: 9.8
+Stop loss: 3778.142 / Sell_marker: 3809.215
+Risk/Reward Ratio: 1.292
+Moving SM: 3813.629
+SELLING STOCK @ 3809.5 - profit/loss: 1.0057833303152786
+
+Position: 2021-05-14 05:16:00
+BUYING STOCK @ 3810.4
+ATR: 7.507
+Candle size: 4.0
+Stop loss: 3799.393 / Sell_marker: 3825.415
+Risk/Reward Ratio: 1.364
+Moving SM: 3845.563
+SELLING STOCK @ 3844.1 - profit/loss: 1.0092281034840094
+
+Position: 2021-05-14 05:51:00
+BUYING STOCK @ 3847.964
+ATR: 5.448
+Candle size: 5.8
+Stop loss: 3839.052 / Sell_marker: 3858.861
+Risk/Reward Ratio: 1.223
+SELLING STOCK @ 3854.8 - profit/loss: 1.0028317435081722
+
+Position: 2021-05-14 06:04:00
+BUYING STOCK @ 3855.3
+ATR: 5.815
+Candle size: 2.3
+Stop loss: 3847.285 / Sell_marker: 3866.93
+Risk/Reward Ratio: 1.451
+SELLING STOCK @ 3844.5 - profit/loss: 0.997921096635726
+
+Position: 2021-05-14 06:16:00
+BUYING STOCK @ 3834.8
+ATR: 5.499
+Candle size: 12.0
+Stop loss: 3817.301 / Sell_marker: 3845.798
+Risk/Reward Ratio: 0.628
+SELLING STOCK @ 3809.8 - profit/loss: 0.995436781492843
+
+Position: 2021-05-14 06:58:00
+BUYING STOCK @ 3818.9
+ATR: 6.722
+Candle size: 5.8
+Stop loss: 3806.378 / Sell_marker: 3832.345
+Risk/Reward Ratio: 1.074
+Moving SM: 3848.262
+SELLING STOCK @ 3843.2 - profit/loss: 1.0076886443582076
+
+Position: 2021-05-14 07:09:00
+BUYING STOCK @ 3853.2
+ATR: 6.802
+Candle size: 11.63
+Stop loss: 3836.468 / Sell_marker: 3866.804
+Risk/Reward Ratio: 0.813
+SELLING STOCK @ 3863.5 - profit/loss: 1.0035305861512689
+
+Position: 2021-05-14 07:14:00
+BUYING STOCK @ 3869.1
+ATR: 7.598
+Candle size: 8.08
+Stop loss: 3854.722 / Sell_marker: 3884.295
+Risk/Reward Ratio: 1.057
+SELLING STOCK @ 3882.5 - profit/loss: 1.0039273924785606
+
+Position: 2021-05-14 07:32:00
+BUYING STOCK @ 3882.9
+ATR: 6.935
+Candle size: 2.9
+Stop loss: 3873.065 / Sell_marker: 3896.77
+Risk/Reward Ratio: 1.41
+SELLING STOCK @ 3871.1 - profit/loss: 0.9974670775110642
+
+Position: 2021-05-14 07:41:00
+BUYING STOCK @ 3874.1
+ATR: 6.729
+Candle size: 6.8
+Stop loss: 3864.371 / Sell_marker: 3887.558
+Risk/Reward Ratio: 1.383
+SELLING STOCK @ 3883.6 - profit/loss: 1.0034737862922922
+
+Position: 2021-05-14 07:57:00
+BUYING STOCK @ 3885.6
+ATR: 6.21
+Candle size: 9.8
+Stop loss: 3873.89 / Sell_marker: 3898.02
+Risk/Reward Ratio: 1.061
+SELLING STOCK @ 3892.5 - profit/loss: 1.00319642844623
+
+Position: 2021-05-14 08:06:00
+BUYING STOCK @ 3887.9
+ATR: 7.966
+Candle size: 6.4
+Stop loss: 3878.134 / Sell_marker: 3903.833
+Risk/Reward Ratio: 1.631
+SELLING STOCK @ 3874.9 - profit/loss: 0.9974879950552094
+
+Position: 2021-05-14 08:22:00
+BUYING STOCK @ 3872.9
+ATR: 7.68
+Candle size: 7.5
+Stop loss: 3859.72 / Sell_marker: 3888.26
+Risk/Reward Ratio: 1.165
+SELLING STOCK @ 3883.1 - profit/loss: 1.0039661275805039
+
+Position: 2021-05-14 08:41:00
+BUYING STOCK @ 3898.969
+ATR: 5.891
+Candle size: 6.318
+Stop loss: 3887.309 / Sell_marker: 3910.752
+Risk/Reward Ratio: 1.01
+Moving SM: 3929.4
+SELLING STOCK @ 3927.576 - profit/loss: 1.0078046806449918
+
+Position: 2021-05-14 08:56:00
+BUYING STOCK @ 3932.2
+ATR: 7.664
+Candle size: 8.8
+Stop loss: 3917.236 / Sell_marker: 3947.529
+Risk/Reward Ratio: 1.024
+SELLING STOCK @ 3946.5 - profit/loss: 1.0038983035599496
+
+Position: 2021-05-14 09:13:00
+BUYING STOCK @ 3951.3
+ATR: 6.714
+Candle size: 9.1
+Stop loss: 3935.486 / Sell_marker: 3964.729
+Risk/Reward Ratio: 0.849
+Moving SM: 3980.388
+SELLING STOCK @ 3979.814 - profit/loss: 1.007361691154275
+
+Position: 2021-05-14 09:41:00
+BUYING STOCK @ 3970.6
+ATR: 5.872
+Candle size: 2.5
+Stop loss: 3963.328 / Sell_marker: 3982.343
+Risk/Reward Ratio: 1.615
+SELLING STOCK @ 3978.4 - profit/loss: 1.002957524115551
+
+Position: 2021-05-14 09:46:00
+BUYING STOCK @ 3971.7
+ATR: 6.042
+Candle size: 3.9
+Stop loss: 3965.558 / Sell_marker: 3983.784
+Risk/Reward Ratio: 1.967
+SELLING STOCK @ 3954.1 - profit/loss: 0.9984535662574061
+
+Position: 2021-05-14 10:00:00
+BUYING STOCK @ 3957.9
+ATR: 4.62
+Candle size: 5.8
+Stop loss: 3948.78 / Sell_marker: 3967.14
+Risk/Reward Ratio: 1.013
+SELLING STOCK @ 3943.3 - profit/loss: 0.9976957689882093
+
+Position: 2021-05-14 10:09:00
+BUYING STOCK @ 3960.8
+ATR: 5.047
+Candle size: 4.5
+Stop loss: 3951.853 / Sell_marker: 3970.895
+Risk/Reward Ratio: 1.128
+SELLING STOCK @ 3961.0 - profit/loss: 1.0025486277915092
+
+Position: 2021-05-14 10:22:00
+BUYING STOCK @ 3956.893
+ATR: 5.522
+Candle size: 5.993
+Stop loss: 3945.378 / Sell_marker: 3967.936
+Risk/Reward Ratio: 0.959
+Moving SM: 3970.705
+SELLING STOCK @ 3969.1 - profit/loss: 1.0034905942000747
+
+Position: 2021-05-14 10:34:00
+BUYING STOCK @ 3971.857
+ATR: 5.224
+Candle size: 7.657
+Stop loss: 3958.976 / Sell_marker: 3982.304
+Risk/Reward Ratio: 0.811
+SELLING STOCK @ 3977.1 - profit/loss: 1.0026303490307755
+
+Position: 2021-05-14 10:49:00
+BUYING STOCK @ 3971.5
+ATR: 5.122
+Candle size: 5.6
+Stop loss: 3966.378 / Sell_marker: 3981.744
+Risk/Reward Ratio: 2.0
+Moving SM: 3986.679
+SELLING STOCK @ 3985.0 - profit/loss: 1.0038220641565971
+
+Position: 2021-05-14 10:57:00
+BUYING STOCK @ 3986.2
+ATR: 5.136
+Candle size: 4.468
+Stop loss: 3977.964 / Sell_marker: 3996.472
+Risk/Reward Ratio: 1.247
+SELLING STOCK @ 3977.0 - profit/loss: 0.9979338995961323
+
+Position: 2021-05-14 11:02:00
+BUYING STOCK @ 3985.9
+ATR: 5.996
+Candle size: 9.577
+Stop loss: 3970.327 / Sell_marker: 3997.893
+Risk/Reward Ratio: 0.77
+Moving SM: 4020.452
+SELLING STOCK @ 4017.0 - profit/loss: 1.008668500993316
+
+Position: 2021-05-14 11:15:00
+BUYING STOCK @ 4019.9
+ATR: 7.055
+Candle size: 5.8
+Stop loss: 4008.045 / Sell_marker: 4034.011
+Risk/Reward Ratio: 1.19
+SELLING STOCK @ 4000.4 - profit/loss: 0.9970508496805321
+
+Position: 2021-05-14 11:34:00
+BUYING STOCK @ 3999.0
+ATR: 6.657
+Candle size: 6.9
+Stop loss: 3985.443 / Sell_marker: 4012.314
+Risk/Reward Ratio: 0.982
+SELLING STOCK @ 4009.1 - profit/loss: 1.0033292618311813
+
+Position: 2021-05-14 11:42:00
+BUYING STOCK @ 4018.0
+ATR: 7.003
+Candle size: 8.8
+Stop loss: 4002.197 / Sell_marker: 4032.007
+Risk/Reward Ratio: 0.886
+SELLING STOCK @ 3998.2 - profit/loss: 0.9960668672448713
+
+Position: 2021-05-14 12:35:00
+BUYING STOCK @ 3997.018
+ATR: 6.161
+Candle size: 2.484
+Stop loss: 3988.655 / Sell_marker: 4009.339
+Risk/Reward Ratio: 1.473
+SELLING STOCK @ 3987.0 - profit/loss: 0.9979079243719541
+
+Position: 2021-05-14 12:57:00
+BUYING STOCK @ 3995.1
+ATR: 7.242
+Candle size: 6.3
+Stop loss: 3987.858 / Sell_marker: 4009.585
+Risk/Reward Ratio: 2.0
+SELLING STOCK @ 3985.0 - profit/loss: 0.998187190114079
+
+Position: 2021-05-14 13:09:00
+BUYING STOCK @ 3991.9
+ATR: 6.773
+Candle size: 7.8
+Stop loss: 3977.327 / Sell_marker: 4005.445
+Risk/Reward Ratio: 0.929
+SELLING STOCK @ 3970.7 - profit/loss: 0.996349466875437
+
+Position: 2021-05-14 13:38:00
+BUYING STOCK @ 4008.1
+ATR: 7.027
+Candle size: 11.367
+Stop loss: 4001.073 / Sell_marker: 4022.153
+Risk/Reward Ratio: 2.0
+Moving SM: 4057.62
+SELLING STOCK @ 4057.3 - profit/loss: 1.0123550476897567
+
+Position: 2021-05-14 14:02:00
+BUYING STOCK @ 4050.0
+ATR: 7.998
+Candle size: 7.8
+Stop loss: 4041.102 / Sell_marker: 4065.996
+Risk/Reward Ratio: 1.798
+SELLING STOCK @ 4061.1 - profit/loss: 1.0039495504981248
+
+Position: 2021-05-14 14:41:00
+BUYING STOCK @ 4058.1
+ATR: 6.571
+Candle size: 2.885
+Stop loss: 4051.529 / Sell_marker: 4071.243
+Risk/Reward Ratio: 2.0
+Moving SM: 4091.678
+SELLING STOCK @ 4090.291 - profit/loss: 1.0082743250842992
+
+Position: 2021-05-14 14:53:00
+BUYING STOCK @ 4087.2
+ATR: 6.876
+Candle size: 7.9
+Stop loss: 4073.324 / Sell_marker: 4100.951
+Risk/Reward Ratio: 0.991
+Moving SM: 4123.065
+SELLING STOCK @ 4122.302 - profit/loss: 1.008775015337946
+
+Position: 2021-05-14 15:12:00
+BUYING STOCK @ 4130.526
+ATR: 8.056
+Candle size: 7.1
+Stop loss: 4119.544 / Sell_marker: 4146.639
+Risk/Reward Ratio: 1.467
+SELLING STOCK @ 4140.4 - profit/loss: 1.003900940200949
+
+Position: 2021-05-14 15:20:00
+BUYING STOCK @ 4132.2
+ATR: 8.067
+Candle size: 10.2
+Stop loss: 4121.733 / Sell_marker: 4148.334
+Risk/Reward Ratio: 1.541
+Moving SM: 4156.919
+SELLING STOCK @ 4150.1 - profit/loss: 1.005982127501154
+
+Position: 2021-05-14 15:37:00
+BUYING STOCK @ 4142.9
+ATR: 8.591
+Candle size: 12.4
+Stop loss: 4132.809 / Sell_marker: 4160.083
+Risk/Reward Ratio: 1.703
+SELLING STOCK @ 4130.6 - profit/loss: 0.9975641492068876
+
+Position: 2021-05-14 15:43:00
+BUYING STOCK @ 4128.785
+ATR: 8.237
+Candle size: 6.7
+Stop loss: 4117.363 / Sell_marker: 4145.259
+Risk/Reward Ratio: 1.442
+SELLING STOCK @ 4100.086 - profit/loss: 0.9972335671665556
+
+Position: 2021-05-14 15:50:00
+BUYING STOCK @ 4117.9
+ATR: 9.127
+Candle size: 4.2
+Stop loss: 4104.973 / Sell_marker: 4136.153
+Risk/Reward Ratio: 1.412
+Moving SM: 4141.093
+SELLING STOCK @ 4140.1 - profit/loss: 1.0056321334882306
+
+Position: 2021-05-14 15:57:00
+BUYING STOCK @ 4147.4
+ATR: 10.129
+Candle size: 6.4
+Stop loss: 4131.371 / Sell_marker: 4167.658
+Risk/Reward Ratio: 1.264
+SELLING STOCK @ 4158.5 - profit/loss: 1.0048844569536566
+
+Position: 2021-05-14 16:12:00
+BUYING STOCK @ 4156.9
+ATR: 10.366
+Candle size: 8.3
+Stop loss: 4141.134 / Sell_marker: 4177.631
+Risk/Reward Ratio: 1.315
+SELLING STOCK @ 4137.693 - profit/loss: 0.9962073889279587
+
