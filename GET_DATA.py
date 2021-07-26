@@ -14,8 +14,6 @@ def get_data(all_data, raw_data, DATA_PERIOD):
         all_data['20_MA'].append(np.NaN)
         all_data['50_MA'].append(np.NaN)
 
-        return False
-
     if len(all_data['close']) == DATA_PERIOD:
 
         all_data['open'].pop(0)
@@ -38,4 +36,4 @@ def get_data(all_data, raw_data, DATA_PERIOD):
         all_data['20_MA'].append(ma_20[-1])
         all_data['50_MA'].append(ma_50[-1])
 
-        return True
+    return all_data

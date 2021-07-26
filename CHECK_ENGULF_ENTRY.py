@@ -1,4 +1,3 @@
-import csv
 def check_engulf_entry(all_data):
     
     open_now = all_data['open'][-1]
@@ -6,11 +5,6 @@ def check_engulf_entry(all_data):
     high_prev = all_data['high'][-2]
     close_now = all_data['close'][-1]
     close_prev = all_data['close'][-2] 
-    
-    # engulf w/ +38.3 = 1
-    # engulf          = 0.75
-    # close above     = 0.5
-    # engulf w/ -38.3 = 0.5
 
     entry_quality = 0
 
@@ -23,9 +17,9 @@ def check_engulf_entry(all_data):
             if close_now > high_prev:
                 entry_quality = 1
                  
-    with open('dataFiles/entry_data.csv', 'a', newline='') as f:
-        data_writer = csv.writer(f, delimiter=',',quoting=csv.QUOTE_MINIMAL)
-        data_writer.writerow([entry_quality])
+    #with open('dataFiles/entry_data.csv', 'a', newline='') as f:
+    #    data_writer = csv.writer(f, delimiter=',',quoting=csv.QUOTE_MINIMAL)
+    #    data_writer.writerow([entry_quality])
 
     return entry_quality
 

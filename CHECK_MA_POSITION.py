@@ -6,5 +6,7 @@ def check_ma_position(all_closes):
 
     if SHORT_MA[-1] >= LONG_MA[-1]:
         return True
-    else: 
+    #elif all_closes[-1] > SHORT_MA[-1]: 
+        #return True
+    else:
         return False

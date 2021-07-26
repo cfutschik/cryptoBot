@@ -11,6 +11,7 @@ def write_data(all_data, PORTFOLIO, tradeWrite):
                             all_data['low'][-1],
                             all_data['open'][-1], 
                             all_data['close'][-1],
+                            all_data['volume'][-1],
                             all_data['20_MA'][-1],
                             all_data['50_MA'][-1]])
 

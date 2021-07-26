@@ -7,22 +7,14 @@ from datetime import datetime
 from MAIN_BOT import main_bot
 from GET_ALL_DATA import get_all_data
 from IMPORT_TRADE_PORTFOLIO import import_trade_portfolio
+from CHECK_ALL_DATA import check_all_data
 
 def binance_bot():
     client = Client(config.API_KEY, config.API_SECRET)
-    SOCKET = "wss://stream.binance.com:9443/ws/ethusdt@kline_1m"
+    SOCKET = "wss://stream.binance.com:9443/ws/ethusdt@kline_15m"
     DATA_PERIOD = 60
 
-    all_data = {
-    'open': [],
-    'close': [],
-    'high': [],
-    'low': [],
-    'date': [],
-    'volume': [],
-    '20_MA': [],
-    '50_MA': []
-    }
+    all_data = check_all_data(DATA_PERIOD)
 
     PORTFOLIO = import_trade_portfolio()
 
@@ -36,7 +28,7 @@ def binance_bot():
 
     if TEST:
 
-        PORTFOLIO[0]['position'] = False
+        PORTFOLIO[0]['Position'] = False
         print('Starting Test')
         all_ticker_data = get_all_data()
 
@@ -68,7 +60,7 @@ def binance_bot():
         print("Percent change: "+str(BALANCE_INIT))
         print("Trades made: "+str(TRADES))
         print("Success rate: "+str(round(SUCCESS/TRADES*100,2)))
-        print("G/T: "+str(round(BALANCE_INIT/TRADES,4)))
+        #print("G/T: "+str(round(BALANCE_INIT/TRADES,4)))
     else:
     # use previous data to populate first DATA period entries
         if False: 
